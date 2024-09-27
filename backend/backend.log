@@ -1,0 +1,97 @@
+2024-09-27 21:33:55,960:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:34:03,001:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:34:10,059:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:35:20,268:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:35:27,306:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:35:34,345:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:38:34,049:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:38:41,079:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:38:48,102:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:42:20,530:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:42:27,580:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:42:34,633:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:48:02,764:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:48:09,817:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:48:16,863:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 22:07:21,233:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:07:21,255:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:07:21,269:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:07:21,269:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:07:28,341:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:07:28,361:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:07:28,372:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:07:28,373:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:07:35,428:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:07:35,448:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:07:35,461:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:07:35,461:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:16:59,902:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:16:59,948:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:16:59,967:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:16:59,967:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:17:07,059:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:17:07,078:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:17:07,096:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:17:07,096:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:17:14,167:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:17:14,186:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:17:14,199:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:17:14,199:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:17:35,031:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:17:35,050:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:17:35,062:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:17:35,063:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:17:42,148:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:17:42,168:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:17:42,181:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:17:42,181:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:17:49,224:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:17:49,245:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:17:49,257:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:17:49,258:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:17:56,305:ERROR:Error in predict endpoint: unhashable type: 'list'
+2024-09-27 22:22:32,789:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:22:32,812:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:22:32,824:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:22:32,824:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:22:39,886:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:22:39,905:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:22:39,918:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:22:39,918:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:22:46,981:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:22:47,004:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:22:47,016:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:22:47,017:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:22:54,059:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-27 22:29:07,457:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:29:07,479:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:29:07,491:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:29:07,492:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:29:14,539:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:29:14,562:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:29:14,574:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:29:14,574:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:29:21,617:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:29:21,636:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:29:21,652:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:29:21,652:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:29:28,695:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-27 22:29:35,762:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-09-27 22:31:40,740:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:31:40,759:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:31:40,773:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:31:40,773:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:31:47,825:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:31:47,847:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:31:47,864:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:31:47,864:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:31:54,928:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:31:54,954:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:31:54,969:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:31:54,969:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:32:02,031:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-27 22:32:09,086:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-09-27 22:32:16,163:INFO:Block blk_-8531310335568756456: Backup completed.
+2024-09-27 22:32:16,187:ERROR:Block blk_-8531310335568756456: Failed to send alert email.
+2024-09-27 22:32:16,201:INFO:Block blk_-8531310335568756456: Checkpoint settings adjusted.
+2024-09-27 22:32:16,201:INFO:Anomaly detected in Block blk_-8531310335568756456.
