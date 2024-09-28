@@ -139,3 +139,69 @@ for idx, row in merged_data.iterrows():
             print(f"graph_data_list[0]에 해당하는 BlockId: {row['BlockId']}")
             break
         first_graph_index -= 1
+
+import torch
+import torch.nn.functional as F
+from torch.nn import Linear
+from torch_geometric.nn import GCNConv, global_mean_pool
+
+class GNN(torch.nn.Module):
+    def __init__(self, num_node_features, hidden_channels):
+        super(GNN, self).__init__()
+        self.conv1 = GCNConv(num_node_features, hidden_channels)
+        self.conv2 = GCNConv(hidden_channels, hidden_channels)
+        self.lin = Linear(hidden_channels, 2)  # 그래프 분류를 위한 출력 레이어
+
+    def forward(self, x, edge_index, batch):
+        x = self.conv1(x, edge_index)
+        x = F.relu(x)
+        x = self.conv2(x, edge_index)
+        x = F.relu(x)
+        x = global_mean_pool(x, batch)  # 그래프 임베딩 생성
+        x = self.lin(x)
+        return x
+from torch_geometric.loader import DataLoader
+
+batch_size = 32
+
+gnn_train_data, gnn_test_data = train_test_split(graph_data_list, test_size=0.2, random_state=42)
+
+gnn_train_loader = DataLoader(gnn_train_data, batch_size=batch_size, shuffle=True)
+gnn_test_loader = DataLoader(gnn_test_data, batch_size=batch_size, shuffle=False)
+
+# 디바이스 설정
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# 모델 초기화
+gnn_model = GNN(num_node_features=len(event_ids), hidden_channels=64).to(device)
+optimizer = torch.optim.Adam(gnn_model.parameters(), lr=0.001)
+criterion = torch.nn.CrossEntropyLoss()
+
+# 학습 루프
+num_epochs = 10
+for epoch in range(num_epochs):
+    gnn_model.train()
+    total_loss = 0
+    for data in gnn_train_loader:
+        data = data.to(device)
+        optimizer.zero_grad()
+        out = gnn_model(data.x, data.edge_index, data.batch)
+        loss = criterion(out, data.y)
+        loss.backward()
+        optimizer.step()
+        total_loss += loss.item()
+    avg_loss = total_loss / len(gnn_train_loader)
+    print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {avg_loss:.4f}')
+
+gnn_model.eval()
+correct = 0
+total = 0
+with torch.no_grad():
+    for data in gnn_test_loader:
+        data = data.to(device)
+        out = gnn_model(data.x, data.edge_index, data.batch)
+        _, pred = torch.max(out, 1)
+        correct += (pred == data.y).sum().item()
+        total += data.y.size(0)
+accuracy = correct / total
+print(f'GNN Test Accuracy: {accuracy:.4f}')
