@@ -205,3 +205,72 @@ with torch.no_grad():
         total += data.y.size(0)
 accuracy = correct / total
 print(f'GNN Test Accuracy: {accuracy:.4f}')
+
+
+class LSTMModel(torch.nn.Module):
+    def __init__(self, input_size, hidden_size, num_layers):
+        super(LSTMModel, self).__init__()
+        self.lstm = LSTM(input_size, hidden_size, num_layers, batch_first=True)
+        self.fc = Linear(hidden_size, 2)  # 이진 분류
+
+    def forward(self, x):
+        out, _ = self.lstm(x)
+        out = self.fc(out[:, -1, :])
+        return out
+
+from torch.utils.data import DataLoader
+from torch.nn.utils.rnn import pad_sequence
+
+def collate_fn(batch):
+    seqs = [torch.tensor(item[0], dtype=torch.float32) for item in batch]
+    labels = torch.tensor([item[1] for item in batch], dtype=torch.long)
+    block_ids = [item[2] for item in batch]
+    seqs_padded = pad_sequence(seqs, batch_first=True)
+    return seqs_padded, labels, block_ids
+
+batch_size = 32
+
+train_data, test_data = train_test_split(data_list, test_size=0.2, random_state=42)
+
+train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
+test_loader = DataLoader(test_data, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
+
+input_size = 64  # GNN의 임베딩 차원과 동일해야 함.
+hidden_size = 128
+num_layers = 2
+
+lstm_model = LSTMModel(input_size=input_size, hidden_size=hidden_size, num_layers=num_layers).to(device)
+criterion = torch.nn.CrossEntropyLoss()
+optimizer = torch.optim.Adam(lstm_model.parameters(), lr=0.001)
+
+num_epochs = 10
+for epoch in range(num_epochs):
+    lstm_model.train()
+    total_loss = 0
+    for seqs_padded, labels, _ in train_loader:
+        seqs_padded = seqs_padded.to(device)
+        labels = labels.to(device)
+
+        optimizer.zero_grad()
+        outputs = lstm_model(seqs_padded)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
+        total_loss += loss.item()
+    avg_loss = total_loss / len(train_loader)
+    print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {avg_loss:.4f}')
+
+lstm_model.eval()
+all_preds = []
+all_labels = []
+with torch.no_grad():
+    for seqs_padded, labels, _ in test_loader:
+        seqs_padded = seqs_padded.to(device)
+        labels = labels.to(device)
+
+        outputs = lstm_model(seqs_padded)
+        _, preds = torch.max(outputs, 1)
+        all_preds.extend(preds.cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
+
+print(classification_report(all_labels, all_preds, target_names=['Normal', 'Anomaly']))
