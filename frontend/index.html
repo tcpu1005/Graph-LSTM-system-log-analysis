@@ -1,0 +1,118 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anomaly Detection Dashboard</title>
+    <!-- 부트스트랩 CSS 추가 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 네비게이션 바 추가 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Anomaly Detection Dashboard</a>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <!-- 사이드바 메뉴 추가 -->
+            <div class="col-md-2 mb-4">
+                <ul class="list-group">
+                    <li class="list-group-item active">Dashboard</li>
+                    <li class="list-group-item">Settings</li>
+                    <li class="list-group-item">Profile</li>
+                </ul>
+            </div>
+            <!-- 메인 컨텐츠 영역 -->
+            <div class="col-md-10">
+                <div class="row">
+                    <!-- 첫 번째 대시보드: Real-time Anomaly Count -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Real-time Anomaly Count</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="eventChart" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- 세 번째 대시보드: Anomaly Types Frequency Over Time -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Anomaly Types Frequency Over Time</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="anomalyTypeBarChart" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- 네 번째 대시보드: Anomaly Probability Over Time -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Anomaly Probability Over Time</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="anomalyProbabilityChart" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- 다섯 번째 대시보드: Normal vs Anomaly Ratio -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Normal vs Anomaly Ratio</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="normalAnomalyRatioChart" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 두 번째 대시보드: Anomaly Types Distribution -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Anomaly Types Distribution</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="anomalyTypePieChart" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- 여섯 번째 대시보드: Alerts -->
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Alerts</h4>
+                            </div>
+                            <div class="card-body" id="alerts">
+                                <!-- 실시간 알림 표시 영역 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 부트스트랩 JS 및 의존성 추가 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+
+    <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

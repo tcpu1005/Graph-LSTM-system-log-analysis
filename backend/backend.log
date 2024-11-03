@@ -1,0 +1,1139 @@
+2024-09-27 21:33:55,960:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:34:03,001:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:34:10,059:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:35:20,268:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:35:27,306:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:35:34,345:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:38:34,049:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:38:41,079:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:38:48,102:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:42:20,530:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:42:27,580:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:42:34,633:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:48:02,764:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:48:09,817:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 21:48:16,863:ERROR:Error in predict endpoint: input.size(-1) must be equal to input_size. Expected 64, got 29
+2024-09-27 22:07:21,233:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:07:21,255:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:07:21,269:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:07:21,269:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:07:28,341:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:07:28,361:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:07:28,372:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:07:28,373:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:07:35,428:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:07:35,448:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:07:35,461:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:07:35,461:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:16:59,902:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:16:59,948:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:16:59,967:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:16:59,967:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:17:07,059:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:17:07,078:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:17:07,096:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:17:07,096:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:17:14,167:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:17:14,186:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:17:14,199:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:17:14,199:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:17:35,031:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:17:35,050:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:17:35,062:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:17:35,063:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:17:42,148:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:17:42,168:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:17:42,181:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:17:42,181:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:17:49,224:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:17:49,245:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:17:49,257:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:17:49,258:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:17:56,305:ERROR:Error in predict endpoint: unhashable type: 'list'
+2024-09-27 22:22:32,789:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:22:32,812:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:22:32,824:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:22:32,824:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:22:39,886:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:22:39,905:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:22:39,918:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:22:39,918:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:22:46,981:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:22:47,004:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:22:47,016:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:22:47,017:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:22:54,059:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-27 22:29:07,457:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:29:07,479:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:29:07,491:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:29:07,492:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:29:14,539:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:29:14,562:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:29:14,574:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:29:14,574:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:29:21,617:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:29:21,636:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:29:21,652:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:29:21,652:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:29:28,695:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-27 22:29:35,762:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-09-27 22:31:40,740:INFO:Block blk_1001: Backup completed.
+2024-09-27 22:31:40,759:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-27 22:31:40,773:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-27 22:31:40,773:INFO:Anomaly detected in Block blk_1001.
+2024-09-27 22:31:47,825:INFO:Block blk_1002: Backup completed.
+2024-09-27 22:31:47,847:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-27 22:31:47,864:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-27 22:31:47,864:INFO:Anomaly detected in Block blk_1002.
+2024-09-27 22:31:54,928:INFO:Block blk_1003: Backup completed.
+2024-09-27 22:31:54,954:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-27 22:31:54,969:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-27 22:31:54,969:INFO:Anomaly detected in Block blk_1003.
+2024-09-27 22:32:02,031:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-27 22:32:09,086:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-09-27 22:32:16,163:INFO:Block blk_-8531310335568756456: Backup completed.
+2024-09-27 22:32:16,187:ERROR:Block blk_-8531310335568756456: Failed to send alert email.
+2024-09-27 22:32:16,201:INFO:Block blk_-8531310335568756456: Checkpoint settings adjusted.
+2024-09-27 22:32:16,201:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-09-28 09:12:40,057:INFO:Block blk_1001: Backup completed.
+2024-09-28 09:12:40,089:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-28 09:12:40,123:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-28 09:12:40,123:INFO:Anomaly detected in Block blk_1001.
+2024-09-28 09:12:47,194:INFO:Block blk_1002: Backup completed.
+2024-09-28 09:12:47,216:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-28 09:12:47,231:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-28 09:12:47,232:INFO:Anomaly detected in Block blk_1002.
+2024-09-28 09:12:54,279:INFO:Block blk_1003: Backup completed.
+2024-09-28 09:12:54,297:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-28 09:12:54,313:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-28 09:12:54,313:INFO:Anomaly detected in Block blk_1003.
+2024-09-28 09:13:01,351:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-28 09:13:08,408:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-09-28 09:13:15,480:INFO:Block blk_-8531310335568756456: Backup completed.
+2024-09-28 09:13:15,502:ERROR:Block blk_-8531310335568756456: Failed to send alert email.
+2024-09-28 09:13:15,515:INFO:Block blk_-8531310335568756456: Checkpoint settings adjusted.
+2024-09-28 09:13:15,516:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-09-28 09:20:57,211:INFO:Block blk_1001: Backup completed.
+2024-09-28 09:20:57,261:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-28 09:20:57,304:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-28 09:20:57,306:INFO:Anomaly detected in Block blk_1001.
+2024-09-28 09:21:04,380:INFO:Block blk_1002: Backup completed.
+2024-09-28 09:21:04,410:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-28 09:21:04,432:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-28 09:21:04,432:INFO:Anomaly detected in Block blk_1002.
+2024-09-28 09:21:11,519:INFO:Block blk_1003: Backup completed.
+2024-09-28 09:21:11,546:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-28 09:21:11,564:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-28 09:21:11,564:INFO:Anomaly detected in Block blk_1003.
+2024-09-28 09:21:18,621:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-28 09:21:25,682:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-09-28 09:21:32,758:INFO:Block blk_-8531310335568756456: Backup completed.
+2024-09-28 09:21:32,780:ERROR:Block blk_-8531310335568756456: Failed to send alert email.
+2024-09-28 09:21:32,793:INFO:Block blk_-8531310335568756456: Checkpoint settings adjusted.
+2024-09-28 09:21:32,793:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-09-28 10:20:03,940:INFO:Block blk_1001: Backup completed.
+2024-09-28 10:20:03,975:ERROR:Block blk_1001: Failed to send alert email.
+2024-09-28 10:20:03,992:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-09-28 10:20:03,994:INFO:Anomaly detected in Block blk_1001.
+2024-09-28 10:20:11,030:INFO:Block blk_1002: Backup completed.
+2024-09-28 10:20:11,053:ERROR:Block blk_1002: Failed to send alert email.
+2024-09-28 10:20:11,074:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-09-28 10:20:11,074:INFO:Anomaly detected in Block blk_1002.
+2024-09-28 10:20:18,098:INFO:Block blk_1003: Backup completed.
+2024-09-28 10:20:18,131:ERROR:Block blk_1003: Failed to send alert email.
+2024-09-28 10:20:18,150:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-09-28 10:20:18,150:INFO:Anomaly detected in Block blk_1003.
+2024-09-28 10:20:25,161:INFO:Normal activity in Block blk_7854771516489510256.
+2024-09-28 10:20:32,174:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-09-28 10:20:39,201:INFO:Block blk_-8531310335568756456: Backup completed.
+2024-09-28 10:20:39,225:ERROR:Block blk_-8531310335568756456: Failed to send alert email.
+2024-09-28 10:20:39,247:INFO:Block blk_-8531310335568756456: Checkpoint settings adjusted.
+2024-09-28 10:20:39,249:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-10-22 22:06:06,615:INFO:Block blk_1001: Backup completed.
+2024-10-22 22:06:06,639:ERROR:Block blk_1001: Failed to send alert email.
+2024-10-22 22:06:06,654:INFO:Block blk_1001: Checkpoint settings adjusted.
+2024-10-22 22:06:06,654:INFO:Anomaly detected in Block blk_1001.
+2024-10-22 22:06:13,717:INFO:Block blk_1002: Backup completed.
+2024-10-22 22:06:13,739:ERROR:Block blk_1002: Failed to send alert email.
+2024-10-22 22:06:13,754:INFO:Block blk_1002: Checkpoint settings adjusted.
+2024-10-22 22:06:13,754:INFO:Anomaly detected in Block blk_1002.
+2024-10-22 22:06:20,822:INFO:Block blk_1003: Backup completed.
+2024-10-22 22:06:20,844:ERROR:Block blk_1003: Failed to send alert email.
+2024-10-22 22:06:20,860:INFO:Block blk_1003: Checkpoint settings adjusted.
+2024-10-22 22:06:20,860:INFO:Anomaly detected in Block blk_1003.
+2024-10-22 22:06:27,905:INFO:Normal activity in Block blk_7854771516489510256.
+2024-10-22 22:06:34,956:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-10-22 22:06:42,034:INFO:Block blk_-8531310335568756456: Backup completed.
+2024-10-22 22:06:42,060:ERROR:Block blk_-8531310335568756456: Failed to send alert email.
+2024-10-22 22:06:42,086:INFO:Block blk_-8531310335568756456: Checkpoint settings adjusted.
+2024-10-22 22:06:42,086:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 21:38:59,834:INFO:Anomaly detected in Block blk_1001. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 21:38:59,864:INFO:Anomaly detected in Block blk_1001.
+2024-11-01 21:39:06,920:INFO:Anomaly detected in Block blk_1002. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 21:39:06,939:INFO:Anomaly detected in Block blk_1002.
+2024-11-01 21:39:13,993:INFO:Anomaly detected in Block blk_1003. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 21:39:14,016:INFO:Anomaly detected in Block blk_1003.
+2024-11-01 21:39:21,052:INFO:Normal activity in Block blk_7854771516489510256.
+2024-11-01 21:39:28,092:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-11-01 21:39:35,155:INFO:Anomaly detected in Block blk_-8531310335568756456. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-01 21:39:35,171:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 21:46:32,243:INFO:Anomaly detected in Block blk_1001. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 21:46:32,270:INFO:Anomaly detected in Block blk_1001.
+2024-11-01 21:46:39,325:INFO:Anomaly detected in Block blk_1002. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 21:46:39,343:INFO:Anomaly detected in Block blk_1002.
+2024-11-01 21:46:46,390:INFO:Anomaly detected in Block blk_1003. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 21:46:46,413:INFO:Anomaly detected in Block blk_1003.
+2024-11-01 21:46:53,486:INFO:Normal activity in Block blk_7854771516489510256.
+2024-11-01 21:47:00,545:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-11-01 21:47:07,599:INFO:Anomaly detected in Block blk_-8531310335568756456. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-01 21:47:07,618:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 22:00:58,160:INFO:Anomaly detected in Block blk_1001. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 22:00:58,192:INFO:Anomaly detected in Block blk_1001.
+2024-11-01 22:01:05,243:INFO:Anomaly detected in Block blk_1002. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:01:05,263:INFO:Anomaly detected in Block blk_1002.
+2024-11-01 22:01:12,307:INFO:Anomaly detected in Block blk_1003. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:01:12,325:INFO:Anomaly detected in Block blk_1003.
+2024-11-01 22:01:19,371:INFO:Normal activity in Block blk_7854771516489510256.
+2024-11-01 22:01:26,429:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-11-01 22:01:33,478:INFO:Anomaly detected in Block blk_-8531310335568756456. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-01 22:01:33,496:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 22:02:41,860:INFO:Anomaly detected in Block blk_1001. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 22:02:41,883:INFO:Anomaly detected in Block blk_1001.
+2024-11-01 22:02:48,926:INFO:Anomaly detected in Block blk_1002. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:02:48,943:INFO:Anomaly detected in Block blk_1002.
+2024-11-01 22:02:55,982:INFO:Anomaly detected in Block blk_1003. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:02:56,000:INFO:Anomaly detected in Block blk_1003.
+2024-11-01 22:03:03,048:INFO:Normal activity in Block blk_7854771516489510256.
+2024-11-01 22:03:10,101:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-11-01 22:03:17,141:INFO:Anomaly detected in Block blk_-8531310335568756456. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-01 22:03:17,163:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 22:12:21,958:INFO:Sent model performance: {'accuracy': 0.9066, 'precision': 0.9928, 'recall': 0.9115, 'f1_score': 0.9754}
+2024-11-01 22:20:19,643:INFO:Anomaly detected in Block blk_1001. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 22:20:19,669:INFO:Anomaly detected in Block blk_1001.
+2024-11-01 22:20:26,714:INFO:Anomaly detected in Block blk_1002. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:20:26,733:INFO:Anomaly detected in Block blk_1002.
+2024-11-01 22:20:33,786:INFO:Anomaly detected in Block blk_1003. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:20:33,805:INFO:Anomaly detected in Block blk_1003.
+2024-11-01 22:20:40,861:INFO:Normal activity in Block blk_7854771516489510256.
+2024-11-01 22:20:47,927:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-11-01 22:20:54,965:INFO:Anomaly detected in Block blk_-8531310335568756456. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-01 22:20:54,988:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 22:43:55,380:INFO:Anomaly detected in Block blk_1001. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 22:43:55,414:INFO:Anomaly detected in Block blk_1001.
+2024-11-01 22:44:02,477:INFO:Anomaly detected in Block blk_1002. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:44:02,498:INFO:Anomaly detected in Block blk_1002.
+2024-11-01 22:44:09,536:INFO:Anomaly detected in Block blk_1003. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 22:44:09,564:INFO:Anomaly detected in Block blk_1003.
+2024-11-01 22:44:16,623:INFO:Normal activity in Block blk_7854771516489510256.
+2024-11-01 22:44:23,677:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-11-01 22:44:30,737:INFO:Anomaly detected in Block blk_-8531310335568756456. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-01 22:44:30,758:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 23:30:12,316:INFO:Anomaly detected in Block blk_1001. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 23:30:12,354:INFO:Anomaly detected in Block blk_1001.
+2024-11-01 23:30:19,383:INFO:Anomaly detected in Block blk_1002. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 23:30:19,408:INFO:Anomaly detected in Block blk_1002.
+2024-11-01 23:30:26,437:INFO:Anomaly detected in Block blk_1003. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 23:30:26,465:INFO:Anomaly detected in Block blk_1003.
+2024-11-01 23:30:33,511:INFO:Normal activity in Block blk_7854771516489510256.
+2024-11-01 23:30:40,550:INFO:Normal activity in Block blk_-3544583377289625738.
+2024-11-01 23:30:47,585:INFO:Anomaly detected in Block blk_-8531310335568756456. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-01 23:30:47,614:INFO:Anomaly detected in Block blk_-8531310335568756456.
+2024-11-01 23:38:18,487:INFO:Anomaly detected in Block blk_939684132138345766. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-01 23:38:18,516:ERROR:Block blk_939684132138345766: Failed to send alert email.
+2024-11-01 23:38:18,517:INFO:Anomaly detected in Block blk_939684132138345766.
+2024-11-01 23:38:25,575:INFO:Anomaly detected in Block blk_235798163595604415. Error Type: 19, Description: Frequent updates to blockMap hint at consistency verification errors.
+2024-11-01 23:38:25,595:ERROR:Block blk_235798163595604415: Failed to send alert email.
+2024-11-01 23:38:25,595:INFO:Anomaly detected in Block blk_235798163595604415.
+2024-11-01 23:38:32,654:INFO:Anomaly detected in Block blk_115045506391265524. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 23:38:32,681:ERROR:Block blk_115045506391265524: Failed to send alert email.
+2024-11-01 23:38:32,681:INFO:Anomaly detected in Block blk_115045506391265524.
+2024-11-01 23:38:39,740:INFO:Anomaly detected in Block blk_537266819319968064. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-01 23:38:39,785:ERROR:Block blk_537266819319968064: Failed to send alert email.
+2024-11-01 23:38:39,785:INFO:Anomaly detected in Block blk_537266819319968064.
+2024-11-01 23:38:46,843:INFO:Normal activity in Block blk_803078665426395860.
+2024-11-01 23:38:53,887:INFO:Anomaly detected in Block blk_439970411212480290. Error Type: 19, Description: Frequent updates to blockMap hint at consistency verification errors.
+2024-11-01 23:38:53,906:ERROR:Block blk_439970411212480290: Failed to send alert email.
+2024-11-01 23:38:53,906:INFO:Anomaly detected in Block blk_439970411212480290.
+2024-11-01 23:39:00,967:INFO:Anomaly detected in Block blk_-909009830685766897. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-01 23:39:00,986:ERROR:Block blk_-909009830685766897: Failed to send alert email.
+2024-11-01 23:39:00,986:INFO:Anomaly detected in Block blk_-909009830685766897.
+2024-11-01 23:39:15,512:INFO:Anomaly detected in Block blk_795611476419646062. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-01 23:39:15,531:ERROR:Block blk_795611476419646062: Failed to send alert email.
+2024-11-01 23:39:15,531:INFO:Anomaly detected in Block blk_795611476419646062.
+2024-11-01 23:39:22,588:INFO:Normal activity in Block blk_-127708651916664663.
+2024-11-01 23:39:29,642:INFO:Anomaly detected in Block blk_797602130782433079. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-01 23:39:29,660:ERROR:Block blk_797602130782433079: Failed to send alert email.
+2024-11-01 23:39:29,660:INFO:Anomaly detected in Block blk_797602130782433079.
+2024-11-01 23:39:36,715:INFO:Normal activity in Block blk_-781922087840307507.
+2024-11-01 23:39:43,766:INFO:Normal activity in Block blk_-997436719619812656.
+2024-11-02 22:27:58,160:INFO:Anomaly detected in Block blk_-615399438445147591. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:27:58,204:INFO:Anomaly detected in Block blk_-615399438445147591.
+2024-11-02 22:28:05,239:INFO:Anomaly detected in Block blk_-427191173376136559. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:28:05,279:INFO:Anomaly detected in Block blk_-427191173376136559.
+2024-11-02 22:28:12,334:INFO:Anomaly detected in Block blk_882789457989374646. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:28:12,409:INFO:Anomaly detected in Block blk_882789457989374646.
+2024-11-02 22:28:19,456:INFO:Anomaly detected in Block blk_-721542948254281609. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:28:19,492:INFO:Anomaly detected in Block blk_-721542948254281609.
+2024-11-02 22:28:26,553:INFO:Anomaly detected in Block blk_-251585537693216696. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:28:26,580:INFO:Anomaly detected in Block blk_-251585537693216696.
+2024-11-02 22:28:33,620:INFO:Anomaly detected in Block blk_206848043883240473. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:28:33,647:INFO:Anomaly detected in Block blk_206848043883240473.
+2024-11-02 22:28:40,700:INFO:Anomaly detected in Block blk_-269528724328581114. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:28:40,749:INFO:Anomaly detected in Block blk_-269528724328581114.
+2024-11-02 22:28:47,813:INFO:Anomaly detected in Block blk_-335295989186570081. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:28:47,858:INFO:Anomaly detected in Block blk_-335295989186570081.
+2024-11-02 22:28:54,920:INFO:Anomaly detected in Block blk_589986970168299487. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:28:54,949:INFO:Anomaly detected in Block blk_589986970168299487.
+2024-11-02 22:29:02,008:INFO:Anomaly detected in Block blk_-841535352185587262. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:29:02,037:INFO:Anomaly detected in Block blk_-841535352185587262.
+2024-11-02 22:29:09,095:INFO:Anomaly detected in Block blk_-212207324756241434. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:29:09,121:INFO:Anomaly detected in Block blk_-212207324756241434.
+2024-11-02 22:29:16,179:INFO:Normal activity in Block blk_187776282118541652.
+2024-11-02 22:29:23,243:INFO:Anomaly detected in Block blk_355045120411548986. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:29:23,270:INFO:Anomaly detected in Block blk_355045120411548986.
+2024-11-02 22:29:30,327:INFO:Anomaly detected in Block blk_-212124673980993368. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:29:30,354:INFO:Anomaly detected in Block blk_-212124673980993368.
+2024-11-02 22:29:37,415:INFO:Anomaly detected in Block blk_-487578136420238487. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:29:37,442:INFO:Anomaly detected in Block blk_-487578136420238487.
+2024-11-02 22:29:44,506:INFO:Anomaly detected in Block blk_787278364324803356. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:29:44,534:INFO:Anomaly detected in Block blk_787278364324803356.
+2024-11-02 22:29:51,587:INFO:Normal activity in Block blk_629613515001961368.
+2024-11-02 22:29:58,660:INFO:Anomaly detected in Block blk_614737484434436142. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:29:58,688:INFO:Anomaly detected in Block blk_614737484434436142.
+2024-11-02 22:30:05,739:INFO:Anomaly detected in Block blk_-599560524312724453. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:30:05,770:INFO:Anomaly detected in Block blk_-599560524312724453.
+2024-11-02 22:30:12,832:INFO:Anomaly detected in Block blk_294685840013926410. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-02 22:30:12,880:INFO:Anomaly detected in Block blk_294685840013926410.
+2024-11-02 22:30:19,934:INFO:Normal activity in Block blk_-981215692913428251.
+2024-11-02 22:30:26,981:INFO:Anomaly detected in Block blk_245004059676096456. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:30:27,006:INFO:Anomaly detected in Block blk_245004059676096456.
+2024-11-02 22:30:34,078:INFO:Anomaly detected in Block blk_-998063118697242304. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:30:34,111:INFO:Anomaly detected in Block blk_-998063118697242304.
+2024-11-02 22:30:41,171:INFO:Anomaly detected in Block blk_252866904103551077. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:30:41,198:INFO:Anomaly detected in Block blk_252866904103551077.
+2024-11-02 22:30:48,258:INFO:Normal activity in Block blk_-846084335297649774.
+2024-11-02 22:30:55,326:INFO:Anomaly detected in Block blk_-113041573380974779. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:30:55,363:INFO:Anomaly detected in Block blk_-113041573380974779.
+2024-11-02 22:31:02,422:INFO:Normal activity in Block blk_-831018114705149328.
+2024-11-02 22:31:09,477:INFO:Anomaly detected in Block blk_714872692372784800. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:31:09,517:INFO:Anomaly detected in Block blk_714872692372784800.
+2024-11-02 22:31:16,563:INFO:Anomaly detected in Block blk_-104580590556253098. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-02 22:31:16,601:INFO:Anomaly detected in Block blk_-104580590556253098.
+2024-11-02 22:31:23,667:INFO:Anomaly detected in Block blk_-86006404986455588. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:31:23,698:INFO:Anomaly detected in Block blk_-86006404986455588.
+2024-11-02 22:31:30,753:INFO:Anomaly detected in Block blk_-202054080784669758. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:31:30,796:INFO:Anomaly detected in Block blk_-202054080784669758.
+2024-11-02 22:31:37,832:INFO:Anomaly detected in Block blk_569255226390543417. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:31:37,928:INFO:Anomaly detected in Block blk_569255226390543417.
+2024-11-02 22:31:44,997:INFO:Normal activity in Block blk_-981603612792158188.
+2024-11-02 22:31:52,043:INFO:Anomaly detected in Block blk_301829960990648465. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:31:52,081:INFO:Anomaly detected in Block blk_301829960990648465.
+2024-11-02 22:31:59,150:INFO:Anomaly detected in Block blk_-432147875408236041. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:31:59,188:INFO:Anomaly detected in Block blk_-432147875408236041.
+2024-11-02 22:32:06,255:INFO:Anomaly detected in Block blk_634786622004470060. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:32:06,279:INFO:Anomaly detected in Block blk_634786622004470060.
+2024-11-02 22:32:13,341:INFO:Normal activity in Block blk_-430017090616708566.
+2024-11-02 22:32:20,394:INFO:Anomaly detected in Block blk_-824890981840985361. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:32:20,442:INFO:Anomaly detected in Block blk_-824890981840985361.
+2024-11-02 22:32:27,488:INFO:Anomaly detected in Block blk_-152865790817019264. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:32:27,522:INFO:Anomaly detected in Block blk_-152865790817019264.
+2024-11-02 22:32:34,576:INFO:Anomaly detected in Block blk_854652518472127737. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:32:34,613:INFO:Anomaly detected in Block blk_854652518472127737.
+2024-11-02 22:32:41,677:INFO:Anomaly detected in Block blk_-124648782039794665. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-02 22:32:41,720:INFO:Anomaly detected in Block blk_-124648782039794665.
+2024-11-02 22:32:48,779:INFO:Anomaly detected in Block blk_525322850020502784. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:32:48,814:INFO:Anomaly detected in Block blk_525322850020502784.
+2024-11-02 22:32:55,853:INFO:Anomaly detected in Block blk_397245298839558048. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:32:55,891:INFO:Anomaly detected in Block blk_397245298839558048.
+2024-11-02 22:33:02,933:INFO:Anomaly detected in Block blk_982610087919009349. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:33:02,983:INFO:Anomaly detected in Block blk_982610087919009349.
+2024-11-02 22:33:10,024:INFO:Normal activity in Block blk_-712424451492653243.
+2024-11-02 22:33:17,064:INFO:Anomaly detected in Block blk_61666209043335564. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:33:17,109:INFO:Anomaly detected in Block blk_61666209043335564.
+2024-11-02 22:33:24,178:INFO:Anomaly detected in Block blk_77084158638584357. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:33:24,220:INFO:Anomaly detected in Block blk_77084158638584357.
+2024-11-02 22:33:31,243:INFO:Anomaly detected in Block blk_-552222979107707188. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:33:31,283:INFO:Anomaly detected in Block blk_-552222979107707188.
+2024-11-02 22:33:38,351:INFO:Anomaly detected in Block blk_468610522706540836. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:33:38,393:INFO:Anomaly detected in Block blk_468610522706540836.
+2024-11-02 22:33:45,430:INFO:Anomaly detected in Block blk_365224695773021953. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:33:45,471:INFO:Anomaly detected in Block blk_365224695773021953.
+2024-11-02 22:33:52,529:INFO:Anomaly detected in Block blk_-584599211331821636. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:33:52,562:INFO:Anomaly detected in Block blk_-584599211331821636.
+2024-11-02 22:33:59,602:INFO:Anomaly detected in Block blk_-532543994567933694. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:33:59,640:INFO:Anomaly detected in Block blk_-532543994567933694.
+2024-11-02 22:34:06,670:INFO:Anomaly detected in Block blk_-488580559843299073. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:34:06,713:INFO:Anomaly detected in Block blk_-488580559843299073.
+2024-11-02 22:34:13,747:INFO:Anomaly detected in Block blk_-173566996247798016. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:34:13,778:INFO:Anomaly detected in Block blk_-173566996247798016.
+2024-11-02 22:34:20,823:INFO:Anomaly detected in Block blk_-345563094157160277. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:34:20,859:INFO:Anomaly detected in Block blk_-345563094157160277.
+2024-11-02 22:34:27,889:INFO:Anomaly detected in Block blk_558018654594706005. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:34:27,916:INFO:Anomaly detected in Block blk_558018654594706005.
+2024-11-02 22:34:34,949:INFO:Anomaly detected in Block blk_538829808803339531. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:34:34,982:INFO:Anomaly detected in Block blk_538829808803339531.
+2024-11-02 22:34:42,032:INFO:Anomaly detected in Block blk_-125243621334486264. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:34:42,068:INFO:Anomaly detected in Block blk_-125243621334486264.
+2024-11-02 22:34:49,137:INFO:Anomaly detected in Block blk_438438406463511623. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:34:49,236:INFO:Anomaly detected in Block blk_438438406463511623.
+2024-11-02 22:34:56,285:INFO:Anomaly detected in Block blk_72750690432463467. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:34:56,311:INFO:Anomaly detected in Block blk_72750690432463467.
+2024-11-02 22:35:03,352:INFO:Anomaly detected in Block blk_-475631808455662289. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:35:03,384:INFO:Anomaly detected in Block blk_-475631808455662289.
+2024-11-02 22:35:10,426:INFO:Normal activity in Block blk_-660485874938700406.
+2024-11-02 22:35:17,480:INFO:Anomaly detected in Block blk_-712324373459621428. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:35:17,507:INFO:Anomaly detected in Block blk_-712324373459621428.
+2024-11-02 22:35:24,575:INFO:Normal activity in Block blk_-90906511462355767.
+2024-11-02 22:35:31,628:INFO:Anomaly detected in Block blk_111616352923719275. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:35:31,666:INFO:Anomaly detected in Block blk_111616352923719275.
+2024-11-02 22:35:38,707:INFO:Anomaly detected in Block blk_971958041602899194. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:35:38,740:INFO:Anomaly detected in Block blk_971958041602899194.
+2024-11-02 22:35:45,795:INFO:Anomaly detected in Block blk_633534878414114651. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:35:45,826:INFO:Anomaly detected in Block blk_633534878414114651.
+2024-11-02 22:35:52,897:INFO:Normal activity in Block blk_59839670998785550.
+2024-11-02 22:35:59,935:INFO:Anomaly detected in Block blk_113120393541245524. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:35:59,960:INFO:Anomaly detected in Block blk_113120393541245524.
+2024-11-02 22:36:07,025:INFO:Anomaly detected in Block blk_-378038455777342543. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:36:07,050:INFO:Anomaly detected in Block blk_-378038455777342543.
+2024-11-02 22:36:14,090:INFO:Normal activity in Block blk_644769647917897121.
+2024-11-02 22:36:21,151:INFO:Normal activity in Block blk_419676203041799044.
+2024-11-02 22:36:28,219:INFO:Anomaly detected in Block blk_-858406282365103141. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:36:28,247:INFO:Anomaly detected in Block blk_-858406282365103141.
+2024-11-02 22:36:35,303:INFO:Normal activity in Block blk_816162632435164290.
+2024-11-02 22:36:42,365:INFO:Anomaly detected in Block blk_830738726801647105. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:36:42,415:INFO:Anomaly detected in Block blk_830738726801647105.
+2024-11-02 22:36:49,480:INFO:Normal activity in Block blk_930439554748977412.
+2024-11-02 22:36:56,509:INFO:Anomaly detected in Block blk_-954684417470667135. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-02 22:36:56,553:INFO:Anomaly detected in Block blk_-954684417470667135.
+2024-11-02 22:37:03,609:INFO:Anomaly detected in Block blk_-766470336194433353. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:37:03,658:INFO:Anomaly detected in Block blk_-766470336194433353.
+2024-11-02 22:37:10,713:INFO:Anomaly detected in Block blk_-608419575786977456. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:37:10,747:INFO:Anomaly detected in Block blk_-608419575786977456.
+2024-11-02 22:37:17,796:INFO:Normal activity in Block blk_537339038612405129.
+2024-11-02 22:37:24,842:INFO:Anomaly detected in Block blk_314475147892189697. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:37:24,877:INFO:Anomaly detected in Block blk_314475147892189697.
+2024-11-02 22:37:31,941:INFO:Normal activity in Block blk_510177121472488637.
+2024-11-02 22:37:38,994:INFO:Anomaly detected in Block blk_-479819982066602509. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:37:39,019:INFO:Anomaly detected in Block blk_-479819982066602509.
+2024-11-02 22:39:21,768:INFO:Anomaly detected in Block blk_777495817374003550. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:39:21,804:INFO:Anomaly detected in Block blk_777495817374003550.
+2024-11-02 22:39:28,870:INFO:Normal activity in Block blk_97840141069477666.
+2024-11-02 22:39:35,928:INFO:Normal activity in Block blk_-770798563369386547.
+2024-11-02 22:39:42,986:INFO:Anomaly detected in Block blk_-366075972035750441. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:39:43,024:INFO:Anomaly detected in Block blk_-366075972035750441.
+2024-11-02 22:39:50,086:INFO:Anomaly detected in Block blk_-738112115026566502. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:39:50,120:INFO:Anomaly detected in Block blk_-738112115026566502.
+2024-11-02 22:39:57,190:INFO:Anomaly detected in Block blk_896778898657357009. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:39:57,222:INFO:Anomaly detected in Block blk_896778898657357009.
+2024-11-02 22:40:04,278:INFO:Anomaly detected in Block blk_-128834973689163947. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:40:04,307:INFO:Anomaly detected in Block blk_-128834973689163947.
+2024-11-02 22:40:11,365:INFO:Anomaly detected in Block blk_-541343466951552508. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:40:11,396:INFO:Anomaly detected in Block blk_-541343466951552508.
+2024-11-02 22:40:18,451:INFO:Normal activity in Block blk_579820523814305236.
+2024-11-02 22:40:25,508:INFO:Anomaly detected in Block blk_113779049845617809. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:40:25,560:INFO:Anomaly detected in Block blk_113779049845617809.
+2024-11-02 22:40:32,606:INFO:Anomaly detected in Block blk_896866144348737251. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:40:32,636:INFO:Anomaly detected in Block blk_896866144348737251.
+2024-11-02 22:40:39,692:INFO:Anomaly detected in Block blk_-751394433488556129. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:40:39,723:INFO:Anomaly detected in Block blk_-751394433488556129.
+2024-11-02 22:40:46,786:INFO:Normal activity in Block blk_-893588072056920472.
+2024-11-02 22:40:53,847:INFO:Anomaly detected in Block blk_-902011081000684393. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:40:53,876:INFO:Anomaly detected in Block blk_-902011081000684393.
+2024-11-02 22:41:00,937:INFO:Anomaly detected in Block blk_27903190587448528. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-02 22:41:00,969:INFO:Anomaly detected in Block blk_27903190587448528.
+2024-11-02 22:41:08,026:INFO:Normal activity in Block blk_-706946783487077258.
+2024-11-02 22:41:15,089:INFO:Anomaly detected in Block blk_998292051928385732. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:41:15,120:INFO:Anomaly detected in Block blk_998292051928385732.
+2024-11-02 22:41:22,187:INFO:Anomaly detected in Block blk_-258873720713706543. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:41:22,215:INFO:Anomaly detected in Block blk_-258873720713706543.
+2024-11-02 22:41:29,277:INFO:Anomaly detected in Block blk_-322882996373884825. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:41:29,317:INFO:Anomaly detected in Block blk_-322882996373884825.
+2024-11-02 22:41:36,390:INFO:Anomaly detected in Block blk_-433756204410401602. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:41:36,418:INFO:Anomaly detected in Block blk_-433756204410401602.
+2024-11-02 22:41:43,482:INFO:Normal activity in Block blk_-730168874819626047.
+2024-11-02 22:41:50,543:INFO:Anomaly detected in Block blk_81860440037386439. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:41:50,580:INFO:Anomaly detected in Block blk_81860440037386439.
+2024-11-02 22:41:57,619:INFO:Anomaly detected in Block blk_134148088204527957. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:41:57,658:INFO:Anomaly detected in Block blk_134148088204527957.
+2024-11-02 22:42:04,718:INFO:Anomaly detected in Block blk_1862635990947220. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-02 22:42:04,752:INFO:Anomaly detected in Block blk_1862635990947220.
+2024-11-02 22:42:11,819:INFO:Normal activity in Block blk_-578866536895259845.
+2024-11-02 22:42:18,857:INFO:Anomaly detected in Block blk_253069586736143981. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:42:18,892:INFO:Anomaly detected in Block blk_253069586736143981.
+2024-11-02 22:42:25,959:INFO:Normal activity in Block blk_-304979082862674238.
+2024-11-02 22:42:33,006:INFO:Normal activity in Block blk_728156908115319105.
+2024-11-02 22:42:40,075:INFO:Anomaly detected in Block blk_-129366417166682370. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:42:40,120:INFO:Anomaly detected in Block blk_-129366417166682370.
+2024-11-02 22:42:47,185:INFO:Anomaly detected in Block blk_745868150412854628. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:42:47,228:INFO:Anomaly detected in Block blk_745868150412854628.
+2024-11-02 22:42:54,283:INFO:Anomaly detected in Block blk_-764049520646265305. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:42:54,333:INFO:Anomaly detected in Block blk_-764049520646265305.
+2024-11-02 22:43:01,393:INFO:Anomaly detected in Block blk_740732091754837794. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:43:01,430:INFO:Anomaly detected in Block blk_740732091754837794.
+2024-11-02 22:43:08,482:INFO:Anomaly detected in Block blk_-110193664359436937. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:43:08,521:INFO:Anomaly detected in Block blk_-110193664359436937.
+2024-11-02 22:43:15,595:INFO:Anomaly detected in Block blk_-185727937972146346. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:43:15,636:INFO:Anomaly detected in Block blk_-185727937972146346.
+2024-11-02 22:43:22,688:INFO:Anomaly detected in Block blk_337414495067214568. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:43:22,717:INFO:Anomaly detected in Block blk_337414495067214568.
+2024-11-02 22:43:29,783:INFO:Anomaly detected in Block blk_246274663491014211. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:43:29,819:INFO:Anomaly detected in Block blk_246274663491014211.
+2024-11-02 22:43:36,884:INFO:Normal activity in Block blk_270725981661496613.
+2024-11-02 22:43:44,008:INFO:Anomaly detected in Block blk_867870719569807087. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:43:44,061:INFO:Anomaly detected in Block blk_867870719569807087.
+2024-11-02 22:43:51,120:INFO:Anomaly detected in Block blk_950551754895575837. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:43:51,149:INFO:Anomaly detected in Block blk_950551754895575837.
+2024-11-02 22:43:58,220:INFO:Anomaly detected in Block blk_-610237953358723790. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:43:58,262:INFO:Anomaly detected in Block blk_-610237953358723790.
+2024-11-02 22:44:05,329:INFO:Normal activity in Block blk_-746893664311569875.
+2024-11-02 22:44:12,388:INFO:Anomaly detected in Block blk_-857320185964067045. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:44:12,424:INFO:Anomaly detected in Block blk_-857320185964067045.
+2024-11-02 22:44:19,490:INFO:Anomaly detected in Block blk_152429351968646021. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:44:19,520:INFO:Anomaly detected in Block blk_152429351968646021.
+2024-11-02 22:44:26,582:INFO:Anomaly detected in Block blk_261829490928379177. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-02 22:44:26,610:INFO:Anomaly detected in Block blk_261829490928379177.
+2024-11-02 22:44:33,675:INFO:Anomaly detected in Block blk_-62081947144661648. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:44:33,712:INFO:Anomaly detected in Block blk_-62081947144661648.
+2024-11-02 22:44:40,768:INFO:Normal activity in Block blk_-989721969450891512.
+2024-11-02 22:44:47,838:INFO:Anomaly detected in Block blk_-860476322014133546. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 22:44:47,872:INFO:Anomaly detected in Block blk_-860476322014133546.
+2024-11-02 22:44:54,928:INFO:Normal activity in Block blk_-942216005238480715.
+2024-11-02 22:45:01,978:INFO:Anomaly detected in Block blk_-662490148533651071. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:45:02,021:INFO:Anomaly detected in Block blk_-662490148533651071.
+2024-11-02 22:45:09,082:INFO:Normal activity in Block blk_797384314378642020.
+2024-11-02 22:45:16,151:INFO:Anomaly detected in Block blk_-685772533527982258. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-02 22:45:16,184:INFO:Anomaly detected in Block blk_-685772533527982258.
+2024-11-02 22:45:23,246:INFO:Anomaly detected in Block blk_821683570267152737. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:45:23,277:INFO:Anomaly detected in Block blk_821683570267152737.
+2024-11-02 22:45:30,335:INFO:Normal activity in Block blk_-949231342888362084.
+2024-11-02 22:45:37,391:INFO:Normal activity in Block blk_991301213548945047.
+2024-11-02 22:45:44,454:INFO:Normal activity in Block blk_494317477306590372.
+2024-11-02 22:45:51,508:INFO:Normal activity in Block blk_223266837323230307.
+2024-11-02 22:45:58,578:INFO:Anomaly detected in Block blk_410930250058791814. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:45:58,613:INFO:Anomaly detected in Block blk_410930250058791814.
+2024-11-02 22:46:05,658:INFO:Anomaly detected in Block blk_797912758532442617. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:46:05,693:INFO:Anomaly detected in Block blk_797912758532442617.
+2024-11-02 22:46:12,762:INFO:Anomaly detected in Block blk_158639605116570688. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:46:12,789:INFO:Anomaly detected in Block blk_158639605116570688.
+2024-11-02 22:46:19,846:INFO:Normal activity in Block blk_-570287063388979780.
+2024-11-02 22:46:26,892:INFO:Anomaly detected in Block blk_826092884169463701. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:46:26,921:INFO:Anomaly detected in Block blk_826092884169463701.
+2024-11-02 22:46:33,947:INFO:Normal activity in Block blk_-393882309444128383.
+2024-11-02 22:46:41,012:INFO:Normal activity in Block blk_-556694525392240510.
+2024-11-02 22:46:48,057:INFO:Anomaly detected in Block blk_9076878216259246. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:46:48,093:INFO:Anomaly detected in Block blk_9076878216259246.
+2024-11-02 22:46:55,149:INFO:Anomaly detected in Block blk_626859922003785171. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:46:55,218:INFO:Anomaly detected in Block blk_626859922003785171.
+2024-11-02 22:47:02,266:INFO:Anomaly detected in Block blk_-847620125017453197. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:47:02,297:INFO:Anomaly detected in Block blk_-847620125017453197.
+2024-11-02 22:47:09,327:INFO:Anomaly detected in Block blk_244271998526458262. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:47:09,364:INFO:Anomaly detected in Block blk_244271998526458262.
+2024-11-02 22:47:16,409:INFO:Normal activity in Block blk_-908979704607297156.
+2024-11-02 22:47:23,445:INFO:Anomaly detected in Block blk_-151350505355936402. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:47:23,483:INFO:Anomaly detected in Block blk_-151350505355936402.
+2024-11-02 22:47:30,532:INFO:Anomaly detected in Block blk_934709753270924957. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:47:30,563:INFO:Anomaly detected in Block blk_934709753270924957.
+2024-11-02 22:47:37,594:INFO:Anomaly detected in Block blk_-451001968850679228. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:47:37,648:INFO:Anomaly detected in Block blk_-451001968850679228.
+2024-11-02 22:47:44,715:INFO:Anomaly detected in Block blk_92062876448242759. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:47:44,767:INFO:Anomaly detected in Block blk_92062876448242759.
+2024-11-02 22:47:51,800:INFO:Anomaly detected in Block blk_-624339123811128964. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:47:51,835:INFO:Anomaly detected in Block blk_-624339123811128964.
+2024-11-02 22:47:58,889:INFO:Normal activity in Block blk_-543563086147580639.
+2024-11-02 22:48:05,925:INFO:Anomaly detected in Block blk_-961178897837772905. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:48:05,964:INFO:Anomaly detected in Block blk_-961178897837772905.
+2024-11-02 22:48:13,029:INFO:Anomaly detected in Block blk_75295680907580638. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:48:13,060:INFO:Anomaly detected in Block blk_75295680907580638.
+2024-11-02 22:48:20,107:INFO:Anomaly detected in Block blk_410245863186639874. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:48:20,143:INFO:Anomaly detected in Block blk_410245863186639874.
+2024-11-02 22:48:27,200:INFO:Normal activity in Block blk_-333859601551889793.
+2024-11-02 22:48:34,274:INFO:Normal activity in Block blk_-735910477636523967.
+2024-11-02 22:48:41,328:INFO:Anomaly detected in Block blk_-95687769113206101. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:48:41,360:INFO:Anomaly detected in Block blk_-95687769113206101.
+2024-11-02 22:48:48,403:INFO:Anomaly detected in Block blk_-589099609837818702. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:48:48,434:INFO:Anomaly detected in Block blk_-589099609837818702.
+2024-11-02 22:48:55,494:INFO:Anomaly detected in Block blk_-978828436429285128. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:48:55,531:INFO:Anomaly detected in Block blk_-978828436429285128.
+2024-11-02 22:49:02,584:INFO:Normal activity in Block blk_-88621760200168013.
+2024-11-02 22:49:09,703:INFO:Normal activity in Block blk_648810521004514712.
+2024-11-02 22:49:16,761:INFO:Anomaly detected in Block blk_-616185837452125166. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 22:49:16,796:INFO:Anomaly detected in Block blk_-616185837452125166.
+2024-11-02 22:49:23,850:INFO:Anomaly detected in Block blk_-749387835734988126. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-02 22:49:23,883:INFO:Anomaly detected in Block blk_-749387835734988126.
+2024-11-02 22:49:30,927:INFO:Anomaly detected in Block blk_-780541389679700074. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:49:30,964:INFO:Anomaly detected in Block blk_-780541389679700074.
+2024-11-02 22:49:37,993:INFO:Normal activity in Block blk_276797254779730879.
+2024-11-02 22:49:45,024:INFO:Anomaly detected in Block blk_181047177233738319. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:49:45,060:INFO:Anomaly detected in Block blk_181047177233738319.
+2024-11-02 22:49:52,113:INFO:Anomaly detected in Block blk_664272841550682329. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:49:52,144:INFO:Anomaly detected in Block blk_664272841550682329.
+2024-11-02 22:49:59,202:INFO:Normal activity in Block blk_808634650370248901.
+2024-11-02 22:50:06,255:INFO:Anomaly detected in Block blk_-114205266229982324. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:50:06,287:INFO:Anomaly detected in Block blk_-114205266229982324.
+2024-11-02 22:50:13,341:INFO:Anomaly detected in Block blk_810376870863930044. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:50:13,372:INFO:Anomaly detected in Block blk_810376870863930044.
+2024-11-02 22:50:20,427:INFO:Anomaly detected in Block blk_-601326241291793752. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-02 22:50:20,455:INFO:Anomaly detected in Block blk_-601326241291793752.
+2024-11-02 22:50:27,509:INFO:Anomaly detected in Block blk_767107997659608251. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 22:50:27,557:INFO:Anomaly detected in Block blk_767107997659608251.
+2024-11-02 22:50:34,627:INFO:Anomaly detected in Block blk_-232324036098258708. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:50:34,655:INFO:Anomaly detected in Block blk_-232324036098258708.
+2024-11-02 22:50:41,721:INFO:Normal activity in Block blk_-660975730242549638.
+2024-11-02 22:50:48,781:INFO:Anomaly detected in Block blk_27449539799336725. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 22:50:48,833:INFO:Anomaly detected in Block blk_27449539799336725.
+2024-11-02 22:50:55,889:INFO:Normal activity in Block blk_-6523108089900838.
+2024-11-02 22:51:02,955:INFO:Anomaly detected in Block blk_438969284856017770. Error Type: 19, Description: Frequent updates to blockMap hint at consistency verification errors.
+2024-11-02 22:51:02,986:INFO:Anomaly detected in Block blk_438969284856017770.
+2024-11-02 23:25:16,373:INFO:Anomaly detected in Block blk_-690978531695345548. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:25:16,408:INFO:Anomaly detected in Block blk_-690978531695345548.
+2024-11-02 23:25:23,468:INFO:Normal activity in Block blk_121329174032538709.
+2024-11-02 23:25:30,520:INFO:Anomaly detected in Block blk_-520725818776093020. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:25:30,551:INFO:Anomaly detected in Block blk_-520725818776093020.
+2024-11-02 23:25:37,611:INFO:Anomaly detected in Block blk_-642784547454348130. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-02 23:25:37,643:INFO:Anomaly detected in Block blk_-642784547454348130.
+2024-11-02 23:25:44,691:INFO:Anomaly detected in Block blk_-218424802258938084. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:25:44,724:INFO:Anomaly detected in Block blk_-218424802258938084.
+2024-11-02 23:25:51,773:INFO:Anomaly detected in Block blk_-193446862155011912. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:25:51,812:INFO:Anomaly detected in Block blk_-193446862155011912.
+2024-11-02 23:25:58,886:INFO:Anomaly detected in Block blk_340616069801397347. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:25:58,916:INFO:Anomaly detected in Block blk_340616069801397347.
+2024-11-02 23:26:05,973:INFO:Normal activity in Block blk_-842924643420533461.
+2024-11-02 23:26:13,040:INFO:Anomaly detected in Block blk_-30039381975114991. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:26:13,073:INFO:Anomaly detected in Block blk_-30039381975114991.
+2024-11-02 23:26:20,138:INFO:Anomaly detected in Block blk_-893557278190966176. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:26:20,167:INFO:Anomaly detected in Block blk_-893557278190966176.
+2024-11-02 23:26:27,231:INFO:Normal activity in Block blk_-305555579926039858.
+2024-11-02 23:26:34,293:INFO:Anomaly detected in Block blk_-584923737700902292. Error Type: 19, Description: Frequent updates to blockMap hint at consistency verification errors.
+2024-11-02 23:26:34,323:INFO:Anomaly detected in Block blk_-584923737700902292.
+2024-11-02 23:26:41,378:INFO:Anomaly detected in Block blk_-794342648876823204. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:26:41,408:INFO:Anomaly detected in Block blk_-794342648876823204.
+2024-11-02 23:26:48,459:INFO:Normal activity in Block blk_-653428393891919810.
+2024-11-02 23:26:55,523:INFO:Normal activity in Block blk_-956758462627701190.
+2024-11-02 23:27:02,569:INFO:Normal activity in Block blk_609886540002885061.
+2024-11-02 23:27:09,622:INFO:Normal activity in Block blk_-300857278563856105.
+2024-11-02 23:27:16,676:INFO:Anomaly detected in Block blk_397227114616755575. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-02 23:27:16,704:INFO:Anomaly detected in Block blk_397227114616755575.
+2024-11-02 23:27:23,766:INFO:Anomaly detected in Block blk_-95103922388278897. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:27:23,791:INFO:Anomaly detected in Block blk_-95103922388278897.
+2024-11-02 23:27:30,851:INFO:Anomaly detected in Block blk_903010152168577937. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:27:30,877:INFO:Anomaly detected in Block blk_903010152168577937.
+2024-11-02 23:27:37,929:INFO:Anomaly detected in Block blk_-255721955151155223. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:27:37,954:INFO:Anomaly detected in Block blk_-255721955151155223.
+2024-11-02 23:27:45,006:INFO:Normal activity in Block blk_-228068661153577882.
+2024-11-02 23:27:52,050:INFO:Anomaly detected in Block blk_-413823785262477738. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:27:52,093:INFO:Anomaly detected in Block blk_-413823785262477738.
+2024-11-02 23:27:59,147:INFO:Normal activity in Block blk_257945713566531599.
+2024-11-02 23:28:06,216:INFO:Anomaly detected in Block blk_169121121210447932. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:28:06,251:INFO:Anomaly detected in Block blk_169121121210447932.
+2024-11-02 23:28:13,310:INFO:Normal activity in Block blk_-970360010025370859.
+2024-11-02 23:28:20,367:INFO:Anomaly detected in Block blk_-182822152114325937. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-02 23:28:20,397:INFO:Anomaly detected in Block blk_-182822152114325937.
+2024-11-02 23:28:27,468:INFO:Anomaly detected in Block blk_-374589652056727475. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:28:27,511:INFO:Anomaly detected in Block blk_-374589652056727475.
+2024-11-02 23:28:34,547:INFO:Normal activity in Block blk_-202261653147046537.
+2024-11-02 23:28:41,605:INFO:Normal activity in Block blk_-230656156660616987.
+2024-11-02 23:28:48,646:INFO:Anomaly detected in Block blk_395430561737023461. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:28:48,696:INFO:Anomaly detected in Block blk_395430561737023461.
+2024-11-02 23:28:55,740:INFO:Anomaly detected in Block blk_-531798497904089399. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:28:55,774:INFO:Anomaly detected in Block blk_-531798497904089399.
+2024-11-02 23:29:02,830:INFO:Anomaly detected in Block blk_317232414471057111. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:29:02,861:INFO:Anomaly detected in Block blk_317232414471057111.
+2024-11-02 23:29:09,901:INFO:Normal activity in Block blk_969526838816503237.
+2024-11-02 23:29:16,968:INFO:Anomaly detected in Block blk_-287203659560616678. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-02 23:29:17,000:INFO:Anomaly detected in Block blk_-287203659560616678.
+2024-11-02 23:29:24,059:INFO:Anomaly detected in Block blk_2134082951593298. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:29:24,092:INFO:Anomaly detected in Block blk_2134082951593298.
+2024-11-02 23:29:31,144:INFO:Anomaly detected in Block blk_219747217363323781. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-02 23:29:31,179:INFO:Anomaly detected in Block blk_219747217363323781.
+2024-11-02 23:29:38,247:INFO:Anomaly detected in Block blk_-140568838171528595. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:29:38,276:INFO:Anomaly detected in Block blk_-140568838171528595.
+2024-11-02 23:29:45,338:INFO:Normal activity in Block blk_-650979762459343018.
+2024-11-02 23:29:52,396:INFO:Anomaly detected in Block blk_-836973710182950766. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:29:52,427:INFO:Anomaly detected in Block blk_-836973710182950766.
+2024-11-02 23:29:59,492:INFO:Anomaly detected in Block blk_130346758882961274. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:29:59,526:INFO:Anomaly detected in Block blk_130346758882961274.
+2024-11-02 23:30:06,588:INFO:Anomaly detected in Block blk_427542185214859619. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:30:06,626:INFO:Anomaly detected in Block blk_427542185214859619.
+2024-11-02 23:30:13,675:INFO:Anomaly detected in Block blk_467650995438203344. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:30:13,710:INFO:Anomaly detected in Block blk_467650995438203344.
+2024-11-02 23:30:20,752:INFO:Anomaly detected in Block blk_-426013753857437812. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:30:20,780:INFO:Anomaly detected in Block blk_-426013753857437812.
+2024-11-02 23:30:27,826:INFO:Anomaly detected in Block blk_368622342583406218. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:30:27,855:INFO:Anomaly detected in Block blk_368622342583406218.
+2024-11-02 23:30:34,918:INFO:Anomaly detected in Block blk_-104415267482281980. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:30:34,969:INFO:Anomaly detected in Block blk_-104415267482281980.
+2024-11-02 23:30:42,031:INFO:Anomaly detected in Block blk_-548391528334828758. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:30:42,062:INFO:Anomaly detected in Block blk_-548391528334828758.
+2024-11-02 23:30:49,118:INFO:Anomaly detected in Block blk_44013068579446707. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:30:49,151:INFO:Anomaly detected in Block blk_44013068579446707.
+2024-11-02 23:30:56,220:INFO:Normal activity in Block blk_-403379964921615610.
+2024-11-02 23:31:03,277:INFO:Anomaly detected in Block blk_-376319481599304912. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:31:03,310:INFO:Anomaly detected in Block blk_-376319481599304912.
+2024-11-02 23:31:10,386:INFO:Anomaly detected in Block blk_754105120570059564. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:31:10,430:INFO:Anomaly detected in Block blk_754105120570059564.
+2024-11-02 23:31:17,463:INFO:Anomaly detected in Block blk_-310158222794430832. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:31:17,496:INFO:Anomaly detected in Block blk_-310158222794430832.
+2024-11-02 23:31:24,568:INFO:Anomaly detected in Block blk_-30770638750037116. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:31:24,632:INFO:Anomaly detected in Block blk_-30770638750037116.
+2024-11-02 23:31:31,681:INFO:Normal activity in Block blk_872443449171753096.
+2024-11-02 23:31:38,724:INFO:Anomaly detected in Block blk_295068325860173136. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-02 23:31:38,762:INFO:Anomaly detected in Block blk_295068325860173136.
+2024-11-02 23:31:45,823:INFO:Normal activity in Block blk_-902427693225477925.
+2024-11-02 23:31:52,878:INFO:Normal activity in Block blk_-74749784358697181.
+2024-11-02 23:31:59,946:INFO:Anomaly detected in Block blk_-610649400453769285. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:31:59,999:INFO:Anomaly detected in Block blk_-610649400453769285.
+2024-11-02 23:32:07,042:INFO:Anomaly detected in Block blk_-916694647997973073. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:32:07,085:INFO:Anomaly detected in Block blk_-916694647997973073.
+2024-11-02 23:32:14,129:INFO:Anomaly detected in Block blk_32597768420625502. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:32:14,162:INFO:Anomaly detected in Block blk_32597768420625502.
+2024-11-02 23:32:21,220:INFO:Normal activity in Block blk_237079405638447673.
+2024-11-02 23:32:28,287:INFO:Anomaly detected in Block blk_-14898366031314268. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:32:28,325:INFO:Anomaly detected in Block blk_-14898366031314268.
+2024-11-02 23:32:35,382:INFO:Normal activity in Block blk_-481825443691569892.
+2024-11-02 23:32:42,418:INFO:Anomaly detected in Block blk_687425683209070880. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:32:42,467:INFO:Anomaly detected in Block blk_687425683209070880.
+2024-11-02 23:32:49,497:INFO:Anomaly detected in Block blk_579773534648296013. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:32:49,550:INFO:Anomaly detected in Block blk_579773534648296013.
+2024-11-02 23:32:56,601:INFO:Normal activity in Block blk_657094578233620126.
+2024-11-02 23:33:03,653:INFO:Anomaly detected in Block blk_293613295979087805. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:33:03,688:INFO:Anomaly detected in Block blk_293613295979087805.
+2024-11-02 23:33:10,745:INFO:Anomaly detected in Block blk_-978185456436458660. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:33:10,773:INFO:Anomaly detected in Block blk_-978185456436458660.
+2024-11-02 23:33:17,832:INFO:Anomaly detected in Block blk_690730996747164853. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:33:17,858:INFO:Anomaly detected in Block blk_690730996747164853.
+2024-11-02 23:33:24,903:INFO:Anomaly detected in Block blk_-323859908517611398. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:33:24,931:INFO:Anomaly detected in Block blk_-323859908517611398.
+2024-11-02 23:33:31,966:INFO:Anomaly detected in Block blk_920366382678175227. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:33:32,003:INFO:Anomaly detected in Block blk_920366382678175227.
+2024-11-02 23:53:54,818:INFO:Normal activity in Block blk_-34894588284809265.
+2024-11-02 23:53:58,872:INFO:Anomaly detected in Block blk_876670491148277404. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:53:58,927:INFO:Anomaly detected in Block blk_876670491148277404.
+2024-11-02 23:54:02,992:INFO:Anomaly detected in Block blk_-670632744946431053. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:54:03,023:INFO:Anomaly detected in Block blk_-670632744946431053.
+2024-11-02 23:54:07,086:INFO:Anomaly detected in Block blk_-661577108343200722. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:54:07,119:INFO:Anomaly detected in Block blk_-661577108343200722.
+2024-11-02 23:54:11,179:INFO:Anomaly detected in Block blk_504068646956237786. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:54:11,211:INFO:Anomaly detected in Block blk_504068646956237786.
+2024-11-02 23:54:15,270:INFO:Anomaly detected in Block blk_740632120208135262. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:54:15,299:INFO:Anomaly detected in Block blk_740632120208135262.
+2024-11-02 23:54:19,356:INFO:Normal activity in Block blk_35061483923057358.
+2024-11-02 23:54:23,414:INFO:Anomaly detected in Block blk_-696941271120284677. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:54:23,442:INFO:Anomaly detected in Block blk_-696941271120284677.
+2024-11-02 23:54:27,501:INFO:Anomaly detected in Block blk_502068496560683921. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:54:27,540:INFO:Anomaly detected in Block blk_502068496560683921.
+2024-11-02 23:54:31,606:INFO:Normal activity in Block blk_-702817067479673461.
+2024-11-02 23:54:35,662:INFO:Normal activity in Block blk_164582393051459699.
+2024-11-02 23:54:39,724:INFO:Anomaly detected in Block blk_-231711114272112679. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:54:39,751:INFO:Anomaly detected in Block blk_-231711114272112679.
+2024-11-02 23:54:43,808:INFO:Anomaly detected in Block blk_-234933581071459441. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:54:43,834:INFO:Anomaly detected in Block blk_-234933581071459441.
+2024-11-02 23:54:47,884:INFO:Anomaly detected in Block blk_-695139514280505066. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:54:47,910:INFO:Anomaly detected in Block blk_-695139514280505066.
+2024-11-02 23:54:51,960:INFO:Anomaly detected in Block blk_-130860633834876979. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-02 23:54:51,984:INFO:Anomaly detected in Block blk_-130860633834876979.
+2024-11-02 23:54:56,041:INFO:Anomaly detected in Block blk_-207198741735217146. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:54:56,073:INFO:Anomaly detected in Block blk_-207198741735217146.
+2024-11-02 23:55:00,122:INFO:Anomaly detected in Block blk_235157173194569135. Error Type: 19, Description: Frequent updates to blockMap hint at consistency verification errors.
+2024-11-02 23:55:00,149:INFO:Anomaly detected in Block blk_235157173194569135.
+2024-11-02 23:55:04,176:INFO:Normal activity in Block blk_-223048507893538190.
+2024-11-02 23:55:08,242:INFO:Anomaly detected in Block blk_607674076887808144. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:55:08,269:INFO:Anomaly detected in Block blk_607674076887808144.
+2024-11-02 23:55:12,331:INFO:Anomaly detected in Block blk_-442143632173457493. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:55:12,354:INFO:Anomaly detected in Block blk_-442143632173457493.
+2024-11-02 23:55:16,405:INFO:Anomaly detected in Block blk_782004902947379017. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:55:16,434:INFO:Anomaly detected in Block blk_782004902947379017.
+2024-11-02 23:55:20,488:INFO:Normal activity in Block blk_-30519215022749037.
+2024-11-02 23:55:24,543:INFO:Anomaly detected in Block blk_-9428495767322003. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:55:24,569:INFO:Anomaly detected in Block blk_-9428495767322003.
+2024-11-02 23:55:28,623:INFO:Anomaly detected in Block blk_954565821983166746. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:55:28,650:INFO:Anomaly detected in Block blk_954565821983166746.
+2024-11-02 23:55:32,694:INFO:Normal activity in Block blk_-494127898260331382.
+2024-11-02 23:55:36,755:INFO:Anomaly detected in Block blk_148459853964266025. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:55:36,780:INFO:Anomaly detected in Block blk_148459853964266025.
+2024-11-02 23:55:40,838:INFO:Anomaly detected in Block blk_656454808016123092. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:55:40,880:INFO:Anomaly detected in Block blk_656454808016123092.
+2024-11-02 23:55:44,911:INFO:Anomaly detected in Block blk_-848032023344646031. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:55:44,944:INFO:Anomaly detected in Block blk_-848032023344646031.
+2024-11-02 23:55:48,989:INFO:Anomaly detected in Block blk_-772308341981923646. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:55:49,022:INFO:Anomaly detected in Block blk_-772308341981923646.
+2024-11-02 23:55:53,071:INFO:Anomaly detected in Block blk_-668228404718681831. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:55:53,105:INFO:Anomaly detected in Block blk_-668228404718681831.
+2024-11-02 23:55:57,165:INFO:Normal activity in Block blk_87155339659985165.
+2024-11-02 23:56:01,225:INFO:Anomaly detected in Block blk_422815064627140538. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:01,252:INFO:Anomaly detected in Block blk_422815064627140538.
+2024-11-02 23:56:05,299:INFO:Anomaly detected in Block blk_-953685593993967029. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:56:05,329:INFO:Anomaly detected in Block blk_-953685593993967029.
+2024-11-02 23:56:09,394:INFO:Anomaly detected in Block blk_833571711916890309. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:09,439:INFO:Anomaly detected in Block blk_833571711916890309.
+2024-11-02 23:56:38,947:INFO:Anomaly detected in Block blk_937409496863454007. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:38,992:INFO:Anomaly detected in Block blk_937409496863454007.
+2024-11-02 23:56:43,059:INFO:Anomaly detected in Block blk_917954033211808345. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:43,099:INFO:Anomaly detected in Block blk_917954033211808345.
+2024-11-02 23:56:47,157:INFO:Anomaly detected in Block blk_739865675071168997. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:47,186:INFO:Anomaly detected in Block blk_739865675071168997.
+2024-11-02 23:56:51,249:INFO:Anomaly detected in Block blk_-92137138992327969. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:51,277:INFO:Anomaly detected in Block blk_-92137138992327969.
+2024-11-02 23:56:55,327:INFO:Anomaly detected in Block blk_-907860614005290785. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:55,355:INFO:Anomaly detected in Block blk_-907860614005290785.
+2024-11-02 23:56:59,415:INFO:Anomaly detected in Block blk_943703112811782481. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:56:59,446:INFO:Anomaly detected in Block blk_943703112811782481.
+2024-11-02 23:57:03,511:INFO:Anomaly detected in Block blk_896351432349259880. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:03,538:INFO:Anomaly detected in Block blk_896351432349259880.
+2024-11-02 23:57:07,609:INFO:Anomaly detected in Block blk_-695253026892475808. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:07,648:INFO:Anomaly detected in Block blk_-695253026892475808.
+2024-11-02 23:57:11,707:INFO:Anomaly detected in Block blk_-753082773494947583. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:11,737:INFO:Anomaly detected in Block blk_-753082773494947583.
+2024-11-02 23:57:15,794:INFO:Anomaly detected in Block blk_856221886247892919. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:15,823:INFO:Anomaly detected in Block blk_856221886247892919.
+2024-11-02 23:57:19,889:INFO:Anomaly detected in Block blk_-444301507079219698. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:19,922:INFO:Anomaly detected in Block blk_-444301507079219698.
+2024-11-02 23:57:23,978:INFO:Anomaly detected in Block blk_-721414643975023273. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:24,006:INFO:Anomaly detected in Block blk_-721414643975023273.
+2024-11-02 23:57:28,056:INFO:Anomaly detected in Block blk_-595507619535275898. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:28,087:INFO:Anomaly detected in Block blk_-595507619535275898.
+2024-11-02 23:57:32,153:INFO:Anomaly detected in Block blk_-882566384458351941. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:32,194:INFO:Anomaly detected in Block blk_-882566384458351941.
+2024-11-02 23:57:36,257:INFO:Anomaly detected in Block blk_-401746337079796272. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:36,291:INFO:Anomaly detected in Block blk_-401746337079796272.
+2024-11-02 23:57:40,343:INFO:Anomaly detected in Block blk_-916339032718004036. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:40,380:INFO:Anomaly detected in Block blk_-916339032718004036.
+2024-11-02 23:57:44,425:INFO:Anomaly detected in Block blk_735102999134978046. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:44,452:INFO:Anomaly detected in Block blk_735102999134978046.
+2024-11-02 23:57:48,492:INFO:Anomaly detected in Block blk_153455615907838970. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:48,526:INFO:Anomaly detected in Block blk_153455615907838970.
+2024-11-02 23:57:52,576:INFO:Anomaly detected in Block blk_-780146668831667817. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:52,605:INFO:Anomaly detected in Block blk_-780146668831667817.
+2024-11-02 23:57:56,648:INFO:Anomaly detected in Block blk_576078423456107376. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:57:56,681:INFO:Anomaly detected in Block blk_576078423456107376.
+2024-11-02 23:58:00,745:INFO:Anomaly detected in Block blk_-276222711034573988. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:58:00,783:INFO:Anomaly detected in Block blk_-276222711034573988.
+2024-11-02 23:58:04,838:INFO:Anomaly detected in Block blk_554276013329110951. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:58:04,867:INFO:Anomaly detected in Block blk_554276013329110951.
+2024-11-02 23:58:08,924:INFO:Anomaly detected in Block blk_-456249720814512656. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:58:08,961:INFO:Anomaly detected in Block blk_-456249720814512656.
+2024-11-02 23:58:13,021:INFO:Anomaly detected in Block blk_-854633654336092071. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:58:13,071:INFO:Anomaly detected in Block blk_-854633654336092071.
+2024-11-02 23:58:17,140:INFO:Anomaly detected in Block blk_-503221167957250527. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:58:17,177:INFO:Anomaly detected in Block blk_-503221167957250527.
+2024-11-02 23:58:21,229:INFO:Anomaly detected in Block blk_-473459273596724326. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:58:21,265:INFO:Anomaly detected in Block blk_-473459273596724326.
+2024-11-02 23:58:25,324:INFO:Anomaly detected in Block blk_530734670193360325. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-02 23:58:25,361:INFO:Anomaly detected in Block blk_530734670193360325.
+2024-11-02 23:58:35,076:INFO:Normal activity in Block blk_-115848424173089944.
+2024-11-02 23:58:39,140:INFO:Anomaly detected in Block blk_-175744058541989465. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-02 23:58:39,172:INFO:Anomaly detected in Block blk_-175744058541989465.
+2024-11-02 23:58:43,236:INFO:Anomaly detected in Block blk_-92746188005981869. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-02 23:58:43,264:INFO:Anomaly detected in Block blk_-92746188005981869.
+2024-11-02 23:58:47,318:INFO:Anomaly detected in Block blk_965093888609383538. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:58:47,351:INFO:Anomaly detected in Block blk_965093888609383538.
+2024-11-02 23:58:51,415:INFO:Normal activity in Block blk_-313030074572837745.
+2024-11-02 23:58:55,471:INFO:Anomaly detected in Block blk_79961017770794549. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:58:55,498:INFO:Anomaly detected in Block blk_79961017770794549.
+2024-11-02 23:58:59,557:INFO:Normal activity in Block blk_-336260502030247214.
+2024-11-02 23:59:03,622:INFO:Normal activity in Block blk_954755484895896174.
+2024-11-02 23:59:07,674:INFO:Normal activity in Block blk_494038647852040447.
+2024-11-02 23:59:11,738:INFO:Anomaly detected in Block blk_544844296359226918. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:59:11,766:INFO:Anomaly detected in Block blk_544844296359226918.
+2024-11-02 23:59:15,816:INFO:Anomaly detected in Block blk_984074680550481976. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-02 23:59:15,854:INFO:Anomaly detected in Block blk_984074680550481976.
+2024-11-02 23:59:19,923:INFO:Normal activity in Block blk_744095392769972747.
+2024-11-02 23:59:23,989:INFO:Anomaly detected in Block blk_407125619248124833. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-02 23:59:24,037:INFO:Anomaly detected in Block blk_407125619248124833.
+2024-11-02 23:59:28,102:INFO:Normal activity in Block blk_-743409475047939363.
+2024-11-02 23:59:32,169:INFO:Normal activity in Block blk_662891720991014857.
+2024-11-02 23:59:36,242:INFO:Anomaly detected in Block blk_-261484462382557272. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-02 23:59:36,282:INFO:Anomaly detected in Block blk_-261484462382557272.
+2024-11-02 23:59:40,344:INFO:Anomaly detected in Block blk_-585557463519077225. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-02 23:59:40,378:INFO:Anomaly detected in Block blk_-585557463519077225.
+2024-11-02 23:59:44,442:INFO:Anomaly detected in Block blk_153725772864652049. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-02 23:59:44,471:INFO:Anomaly detected in Block blk_153725772864652049.
+2024-11-02 23:59:48,539:INFO:Normal activity in Block blk_-633773940578483196.
+2024-11-02 23:59:52,592:INFO:Normal activity in Block blk_984232671013197027.
+2024-11-02 23:59:56,628:INFO:Normal activity in Block blk_209907619673403754.
+2024-11-03 00:00:00,667:INFO:Anomaly detected in Block blk_999893177435535294. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:00:00,697:INFO:Anomaly detected in Block blk_999893177435535294.
+2024-11-03 00:00:27,513:INFO:Anomaly detected in Block blk_221678708818406675. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:00:27,546:INFO:Anomaly detected in Block blk_221678708818406675.
+2024-11-03 00:00:31,611:INFO:Anomaly detected in Block blk_14466523872630760. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-03 00:00:31,643:INFO:Anomaly detected in Block blk_14466523872630760.
+2024-11-03 00:00:35,698:INFO:Anomaly detected in Block blk_-469654549531023839. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:00:35,730:INFO:Anomaly detected in Block blk_-469654549531023839.
+2024-11-03 00:00:39,796:INFO:Anomaly detected in Block blk_-469985876802859182. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:00:39,825:INFO:Anomaly detected in Block blk_-469985876802859182.
+2024-11-03 00:00:43,874:INFO:Anomaly detected in Block blk_-997434451846624782. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:00:43,900:INFO:Anomaly detected in Block blk_-997434451846624782.
+2024-11-03 00:00:47,968:INFO:Anomaly detected in Block blk_-803357356947423739. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:00:47,995:INFO:Anomaly detected in Block blk_-803357356947423739.
+2024-11-03 00:00:52,049:INFO:Normal activity in Block blk_609681071091092838.
+2024-11-03 00:00:56,112:INFO:Anomaly detected in Block blk_-385123632606907735. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-03 00:00:56,146:INFO:Anomaly detected in Block blk_-385123632606907735.
+2024-11-03 00:01:00,208:INFO:Anomaly detected in Block blk_-241433047917492637. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-03 00:01:00,248:INFO:Anomaly detected in Block blk_-241433047917492637.
+2024-11-03 00:01:04,315:INFO:Anomaly detected in Block blk_724205123241531146. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:01:04,357:INFO:Anomaly detected in Block blk_724205123241531146.
+2024-11-03 00:01:14,125:INFO:Anomaly detected in Block blk_652845722832840361. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:01:14,152:INFO:Anomaly detected in Block blk_652845722832840361.
+2024-11-03 00:01:18,214:INFO:Anomaly detected in Block blk_682104433112426084. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:01:18,246:INFO:Anomaly detected in Block blk_682104433112426084.
+2024-11-03 00:01:22,297:INFO:Normal activity in Block blk_-353338466469466386.
+2024-11-03 00:01:26,361:INFO:Anomaly detected in Block blk_835052815129383247. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:01:26,394:INFO:Anomaly detected in Block blk_835052815129383247.
+2024-11-03 00:01:30,438:INFO:Anomaly detected in Block blk_182588791348897010. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:01:30,465:INFO:Anomaly detected in Block blk_182588791348897010.
+2024-11-03 00:01:34,503:INFO:Anomaly detected in Block blk_946930534016731292. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:01:34,529:INFO:Anomaly detected in Block blk_946930534016731292.
+2024-11-03 00:01:38,587:INFO:Anomaly detected in Block blk_-698806609355968824. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:01:38,613:INFO:Anomaly detected in Block blk_-698806609355968824.
+2024-11-03 00:01:42,675:INFO:Normal activity in Block blk_279307369497975549.
+2024-11-03 00:01:46,723:INFO:Normal activity in Block blk_635873868585768080.
+2024-11-03 00:01:50,782:INFO:Normal activity in Block blk_-599735696956602024.
+2024-11-03 00:01:54,834:INFO:Normal activity in Block blk_-778800353888421580.
+2024-11-03 00:01:58,888:INFO:Anomaly detected in Block blk_-527171443270562581. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:01:58,917:INFO:Anomaly detected in Block blk_-527171443270562581.
+2024-11-03 00:02:02,975:INFO:Normal activity in Block blk_641059112942886835.
+2024-11-03 00:02:07,043:INFO:Anomaly detected in Block blk_-49249741619111569. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:02:07,073:INFO:Anomaly detected in Block blk_-49249741619111569.
+2024-11-03 00:02:11,132:INFO:Anomaly detected in Block blk_262735746566677148. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:02:11,158:INFO:Anomaly detected in Block blk_262735746566677148.
+2024-11-03 00:02:15,215:INFO:Anomaly detected in Block blk_75978436427533153. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:02:15,241:INFO:Anomaly detected in Block blk_75978436427533153.
+2024-11-03 00:02:19,296:INFO:Anomaly detected in Block blk_847797349270750003. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:02:19,328:INFO:Anomaly detected in Block blk_847797349270750003.
+2024-11-03 00:02:23,384:INFO:Normal activity in Block blk_359200719573431462.
+2024-11-03 00:02:27,428:INFO:Anomaly detected in Block blk_779362266401052913. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:02:27,468:INFO:Anomaly detected in Block blk_779362266401052913.
+2024-11-03 00:02:31,525:INFO:Anomaly detected in Block blk_-113894385706474940. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:02:31,552:INFO:Anomaly detected in Block blk_-113894385706474940.
+2024-11-03 00:02:35,601:INFO:Anomaly detected in Block blk_-85096983815505650. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:02:35,627:INFO:Anomaly detected in Block blk_-85096983815505650.
+2024-11-03 00:02:39,664:INFO:Anomaly detected in Block blk_-496682134675197442. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:02:39,714:INFO:Anomaly detected in Block blk_-496682134675197442.
+2024-11-03 00:02:43,770:INFO:Anomaly detected in Block blk_-273789080723303061. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:02:43,805:INFO:Anomaly detected in Block blk_-273789080723303061.
+2024-11-03 00:02:47,876:INFO:Normal activity in Block blk_-373070080992897247.
+2024-11-03 00:02:51,925:INFO:Normal activity in Block blk_-327591281820484235.
+2024-11-03 00:02:55,976:INFO:Anomaly detected in Block blk_-125326048602648446. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:02:56,004:INFO:Anomaly detected in Block blk_-125326048602648446.
+2024-11-03 00:03:08,219:INFO:Anomaly detected in Block blk_-516493071525394358. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:03:08,246:INFO:Anomaly detected in Block blk_-516493071525394358.
+2024-11-03 00:03:12,305:INFO:Anomaly detected in Block blk_619253871045688941. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:03:12,333:INFO:Anomaly detected in Block blk_619253871045688941.
+2024-11-03 00:03:16,397:INFO:Anomaly detected in Block blk_-555009798963803542. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:03:16,421:INFO:Anomaly detected in Block blk_-555009798963803542.
+2024-11-03 00:03:20,468:INFO:Anomaly detected in Block blk_-815537378622584759. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:03:20,494:INFO:Anomaly detected in Block blk_-815537378622584759.
+2024-11-03 00:03:24,552:INFO:Anomaly detected in Block blk_616464843818927414. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:03:24,576:INFO:Anomaly detected in Block blk_616464843818927414.
+2024-11-03 00:03:28,630:INFO:Anomaly detected in Block blk_-646372229986898450. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:03:28,664:INFO:Anomaly detected in Block blk_-646372229986898450.
+2024-11-03 00:03:32,713:INFO:Anomaly detected in Block blk_-243359838045280737. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:03:32,748:INFO:Anomaly detected in Block blk_-243359838045280737.
+2024-11-03 00:03:36,794:INFO:Anomaly detected in Block blk_-751733045070189725. Error Type: 31, Description: Persistent block reception events point to retry loops or network-related issues.
+2024-11-03 00:03:36,823:INFO:Anomaly detected in Block blk_-751733045070189725.
+2024-11-03 00:03:40,871:INFO:Anomaly detected in Block blk_480530464628664406. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:03:40,902:INFO:Anomaly detected in Block blk_480530464628664406.
+2024-11-03 00:03:44,963:INFO:Anomaly detected in Block blk_-202151108600450922. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:03:45,008:INFO:Anomaly detected in Block blk_-202151108600450922.
+2024-11-03 00:03:49,059:INFO:Anomaly detected in Block blk_161306559496693807. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:03:49,094:INFO:Anomaly detected in Block blk_161306559496693807.
+2024-11-03 00:03:53,129:INFO:Anomaly detected in Block blk_-394246475943653608. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:03:53,166:INFO:Anomaly detected in Block blk_-394246475943653608.
+2024-11-03 00:03:57,225:INFO:Anomaly detected in Block blk_621164545764076610. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:03:57,256:INFO:Anomaly detected in Block blk_621164545764076610.
+2024-11-03 00:04:01,324:INFO:Normal activity in Block blk_118215736664215273.
+2024-11-03 00:04:05,390:INFO:Anomaly detected in Block blk_-610382125902669700. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:04:05,421:INFO:Anomaly detected in Block blk_-610382125902669700.
+2024-11-03 00:04:09,485:INFO:Anomaly detected in Block blk_70033760425601943. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:04:09,514:INFO:Anomaly detected in Block blk_70033760425601943.
+2024-11-03 00:04:13,584:INFO:Anomaly detected in Block blk_841115292225424176. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:04:13,618:INFO:Anomaly detected in Block blk_841115292225424176.
+2024-11-03 00:04:17,670:INFO:Anomaly detected in Block blk_-403603373618710006. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:04:17,711:INFO:Anomaly detected in Block blk_-403603373618710006.
+2024-11-03 00:04:21,780:INFO:Anomaly detected in Block blk_971387261288013381. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:04:21,805:INFO:Anomaly detected in Block blk_971387261288013381.
+2024-11-03 00:04:25,857:INFO:Anomaly detected in Block blk_232516288574078532. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:04:25,884:INFO:Anomaly detected in Block blk_232516288574078532.
+2024-11-03 00:04:29,946:INFO:Anomaly detected in Block blk_973826324321596146. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:04:29,972:INFO:Anomaly detected in Block blk_973826324321596146.
+2024-11-03 00:04:34,030:INFO:Anomaly detected in Block blk_969076919144971513. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:04:34,062:INFO:Anomaly detected in Block blk_969076919144971513.
+2024-11-03 00:04:38,110:INFO:Anomaly detected in Block blk_-537978878874533831. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:04:38,138:INFO:Anomaly detected in Block blk_-537978878874533831.
+2024-11-03 00:04:50,462:INFO:Anomaly detected in Block blk_-748845183357272100. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:04:50,490:INFO:Anomaly detected in Block blk_-748845183357272100.
+2024-11-03 00:04:54,554:INFO:Anomaly detected in Block blk_409146109389363808. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:04:54,582:INFO:Anomaly detected in Block blk_409146109389363808.
+2024-11-03 00:04:58,648:INFO:Anomaly detected in Block blk_-723417628242481367. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:04:58,679:INFO:Anomaly detected in Block blk_-723417628242481367.
+2024-11-03 00:05:02,741:INFO:Anomaly detected in Block blk_958058056328743640. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:05:02,768:INFO:Anomaly detected in Block blk_958058056328743640.
+2024-11-03 00:05:06,824:INFO:Normal activity in Block blk_-6984792174691907.
+2024-11-03 00:05:10,884:INFO:Anomaly detected in Block blk_919150646756940331. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:05:10,915:INFO:Anomaly detected in Block blk_919150646756940331.
+2024-11-03 00:05:14,955:INFO:Anomaly detected in Block blk_-377599726870507260. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:05:14,991:INFO:Anomaly detected in Block blk_-377599726870507260.
+2024-11-03 00:05:19,057:INFO:Normal activity in Block blk_-710630433363834852.
+2024-11-03 00:05:23,096:INFO:Anomaly detected in Block blk_726511113384224785. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:05:23,126:INFO:Anomaly detected in Block blk_726511113384224785.
+2024-11-03 00:05:33,526:INFO:Anomaly detected in Block blk_78336442323347016. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:05:33,562:INFO:Anomaly detected in Block blk_78336442323347016.
+2024-11-03 00:05:37,623:INFO:Anomaly detected in Block blk_239659610941271919. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:05:37,648:INFO:Anomaly detected in Block blk_239659610941271919.
+2024-11-03 00:05:41,715:INFO:Anomaly detected in Block blk_831499556039651669. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-03 00:05:41,740:INFO:Anomaly detected in Block blk_831499556039651669.
+2024-11-03 00:05:45,794:INFO:Anomaly detected in Block blk_549827043992166406. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:05:45,820:INFO:Anomaly detected in Block blk_549827043992166406.
+2024-11-03 00:05:49,876:INFO:Anomaly detected in Block blk_662379932804889820. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:05:49,903:INFO:Anomaly detected in Block blk_662379932804889820.
+2024-11-03 00:05:53,962:INFO:Anomaly detected in Block blk_-76377453460111164. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:05:53,991:INFO:Anomaly detected in Block blk_-76377453460111164.
+2024-11-03 00:05:58,059:INFO:Anomaly detected in Block blk_-312794468891519113. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:05:58,086:INFO:Anomaly detected in Block blk_-312794468891519113.
+2024-11-03 00:06:02,150:INFO:Normal activity in Block blk_-83833268548353256.
+2024-11-03 00:06:06,212:INFO:Anomaly detected in Block blk_-119136005728247195. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:06:06,237:INFO:Anomaly detected in Block blk_-119136005728247195.
+2024-11-03 00:06:14,808:INFO:Normal activity in Block blk_564840349088576047.
+2024-11-03 00:06:18,863:INFO:Normal activity in Block blk_588584254085481843.
+2024-11-03 00:06:22,933:INFO:Anomaly detected in Block blk_229572677876941847. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:06:22,963:INFO:Anomaly detected in Block blk_229572677876941847.
+2024-11-03 00:06:27,014:INFO:Anomaly detected in Block blk_-373957924269841394. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:06:27,046:INFO:Anomaly detected in Block blk_-373957924269841394.
+2024-11-03 00:06:31,114:INFO:Anomaly detected in Block blk_-367041736887546382. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:06:31,144:INFO:Anomaly detected in Block blk_-367041736887546382.
+2024-11-03 00:06:35,205:INFO:Normal activity in Block blk_771340159711612562.
+2024-11-03 00:06:39,258:INFO:Anomaly detected in Block blk_850350133779461973. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:06:39,288:INFO:Anomaly detected in Block blk_850350133779461973.
+2024-11-03 00:06:43,342:INFO:Anomaly detected in Block blk_226693807411205684. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-03 00:06:43,371:INFO:Anomaly detected in Block blk_226693807411205684.
+2024-11-03 00:06:47,427:INFO:Anomaly detected in Block blk_-872127140969217317. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:06:47,457:INFO:Anomaly detected in Block blk_-872127140969217317.
+2024-11-03 00:06:51,518:INFO:Anomaly detected in Block blk_70699969712243332. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:06:51,549:INFO:Anomaly detected in Block blk_70699969712243332.
+2024-11-03 00:06:55,618:INFO:Anomaly detected in Block blk_-366850124977790285. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:06:55,649:INFO:Anomaly detected in Block blk_-366850124977790285.
+2024-11-03 00:06:59,703:INFO:Anomaly detected in Block blk_-1439516411354664. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:06:59,732:INFO:Anomaly detected in Block blk_-1439516411354664.
+2024-11-03 00:07:03,779:INFO:Normal activity in Block blk_813175289967416813.
+2024-11-03 00:07:07,842:INFO:Anomaly detected in Block blk_-446654474474898763. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:07:07,872:INFO:Anomaly detected in Block blk_-446654474474898763.
+2024-11-03 00:07:11,928:INFO:Normal activity in Block blk_-312697379263070422.
+2024-11-03 00:07:15,985:INFO:Normal activity in Block blk_-638510973992527929.
+2024-11-03 00:07:20,050:INFO:Anomaly detected in Block blk_748179494914124403. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-03 00:07:20,077:INFO:Anomaly detected in Block blk_748179494914124403.
+2024-11-03 00:07:24,124:INFO:Anomaly detected in Block blk_-403041497059682250. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:07:24,150:INFO:Anomaly detected in Block blk_-403041497059682250.
+2024-11-03 00:07:28,213:INFO:Anomaly detected in Block blk_-901844056392291710. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:07:28,244:INFO:Anomaly detected in Block blk_-901844056392291710.
+2024-11-03 00:07:32,312:INFO:Anomaly detected in Block blk_817316649242273605. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:07:32,339:INFO:Anomaly detected in Block blk_817316649242273605.
+2024-11-03 00:07:36,395:INFO:Anomaly detected in Block blk_-301020126579519533. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:07:36,424:INFO:Anomaly detected in Block blk_-301020126579519533.
+2024-11-03 00:07:40,483:INFO:Normal activity in Block blk_75811949385329320.
+2024-11-03 00:07:44,544:INFO:Normal activity in Block blk_248310169934558497.
+2024-11-03 00:07:48,603:INFO:Normal activity in Block blk_-664600903342480356.
+2024-11-03 00:07:52,674:INFO:Normal activity in Block blk_524152725991628713.
+2024-11-03 00:07:56,731:INFO:Anomaly detected in Block blk_688100104025586420. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:07:56,758:INFO:Anomaly detected in Block blk_688100104025586420.
+2024-11-03 00:08:00,811:INFO:Anomaly detected in Block blk_-568261304195662441. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:08:00,840:INFO:Anomaly detected in Block blk_-568261304195662441.
+2024-11-03 00:08:04,898:INFO:Anomaly detected in Block blk_-887684569344367940. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:08:04,930:INFO:Anomaly detected in Block blk_-887684569344367940.
+2024-11-03 00:08:08,988:INFO:Normal activity in Block blk_-375006120573820487.
+2024-11-03 00:08:13,052:INFO:Normal activity in Block blk_-277724022775238271.
+2024-11-03 00:08:17,116:INFO:Normal activity in Block blk_-812398043843386269.
+2024-11-03 00:08:21,183:INFO:Anomaly detected in Block blk_2754237314904604. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:08:21,211:INFO:Anomaly detected in Block blk_2754237314904604.
+2024-11-03 00:08:25,269:INFO:Anomaly detected in Block blk_-459989458001774262. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-03 00:08:25,299:INFO:Anomaly detected in Block blk_-459989458001774262.
+2024-11-03 00:08:29,351:INFO:Normal activity in Block blk_-887079697948109651.
+2024-11-03 00:08:33,406:INFO:Normal activity in Block blk_-561645441566585795.
+2024-11-03 00:08:37,460:INFO:Anomaly detected in Block blk_877109185844267713. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:08:37,491:INFO:Anomaly detected in Block blk_877109185844267713.
+2024-11-03 00:08:41,559:INFO:Anomaly detected in Block blk_-637193850734640899. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:08:41,586:INFO:Anomaly detected in Block blk_-637193850734640899.
+2024-11-03 00:08:45,643:INFO:Anomaly detected in Block blk_314717261747170745. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:08:45,673:INFO:Anomaly detected in Block blk_314717261747170745.
+2024-11-03 00:08:49,724:INFO:Anomaly detected in Block blk_784404485178236768. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:08:49,755:INFO:Anomaly detected in Block blk_784404485178236768.
+2024-11-03 00:08:53,822:INFO:Normal activity in Block blk_111584610142924996.
+2024-11-03 00:08:57,885:INFO:Anomaly detected in Block blk_697084020771561879. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:08:57,916:INFO:Anomaly detected in Block blk_697084020771561879.
+2024-11-03 00:09:01,968:INFO:Anomaly detected in Block blk_-584810948584280614. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:09:02,001:INFO:Anomaly detected in Block blk_-584810948584280614.
+2024-11-03 00:09:06,051:INFO:Normal activity in Block blk_-23178010337273540.
+2024-11-03 00:09:10,111:INFO:Anomaly detected in Block blk_-127568791043800043. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:09:10,155:INFO:Anomaly detected in Block blk_-127568791043800043.
+2024-11-03 00:09:14,204:INFO:Normal activity in Block blk_-911751796773276216.
+2024-11-03 00:09:18,243:INFO:Anomaly detected in Block blk_609736616661026695. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:09:18,273:INFO:Anomaly detected in Block blk_609736616661026695.
+2024-11-03 00:09:22,332:INFO:Anomaly detected in Block blk_80858732939884019. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:09:22,363:INFO:Anomaly detected in Block blk_80858732939884019.
+2024-11-03 00:09:26,421:INFO:Anomaly detected in Block blk_-422580864107249825. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:09:26,449:INFO:Anomaly detected in Block blk_-422580864107249825.
+2024-11-03 00:09:30,505:INFO:Normal activity in Block blk_419952262817009673.
+2024-11-03 00:09:34,528:INFO:Normal activity in Block blk_-705300448503195769.
+2024-11-03 00:09:38,572:INFO:Normal activity in Block blk_509965501175949585.
+2024-11-03 00:09:42,627:INFO:Anomaly detected in Block blk_-166243329852223769. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:09:42,659:INFO:Anomaly detected in Block blk_-166243329852223769.
+2024-11-03 00:09:46,698:INFO:Anomaly detected in Block blk_-893344711481073839. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:09:46,726:INFO:Anomaly detected in Block blk_-893344711481073839.
+2024-11-03 00:09:50,757:INFO:Anomaly detected in Block blk_34683794161941159. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:09:50,787:INFO:Anomaly detected in Block blk_34683794161941159.
+2024-11-03 00:09:54,841:INFO:Anomaly detected in Block blk_731750671899927796. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:09:54,866:INFO:Anomaly detected in Block blk_731750671899927796.
+2024-11-03 00:09:58,919:INFO:Normal activity in Block blk_-381897552508343994.
+2024-11-03 00:10:02,982:INFO:Anomaly detected in Block blk_383449006255500509. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:10:03,008:INFO:Anomaly detected in Block blk_383449006255500509.
+2024-11-03 00:10:07,071:INFO:Anomaly detected in Block blk_30124065772635603. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:10:07,104:INFO:Anomaly detected in Block blk_30124065772635603.
+2024-11-03 00:10:11,159:INFO:Normal activity in Block blk_-431965083028247903.
+2024-11-03 00:10:15,225:INFO:Anomaly detected in Block blk_-622838565545396345. Error Type: 9, Description: Block receiving events might indicate issues in block handoffs or storage at the receiving node.
+2024-11-03 00:10:15,256:INFO:Anomaly detected in Block blk_-622838565545396345.
+2024-11-03 00:10:19,310:INFO:Anomaly detected in Block blk_-541593616308862325. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:10:19,345:INFO:Anomaly detected in Block blk_-541593616308862325.
+2024-11-03 00:10:23,411:INFO:Anomaly detected in Block blk_-188609541873087980. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:10:23,454:INFO:Anomaly detected in Block blk_-188609541873087980.
+2024-11-03 00:10:27,505:INFO:Normal activity in Block blk_-646053111915455291.
+2024-11-03 00:10:34,195:INFO:Anomaly detected in Block blk_728432191589287733. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:10:34,233:INFO:Anomaly detected in Block blk_728432191589287733.
+2024-11-03 00:10:38,289:INFO:Anomaly detected in Block blk_109286547027838812. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:10:38,325:INFO:Anomaly detected in Block blk_109286547027838812.
+2024-11-03 00:10:42,385:INFO:Anomaly detected in Block blk_20346101344680332. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:10:42,424:INFO:Anomaly detected in Block blk_20346101344680332.
+2024-11-03 00:10:46,493:INFO:Anomaly detected in Block blk_22193645823181226. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:10:46,529:INFO:Anomaly detected in Block blk_22193645823181226.
+2024-11-03 00:10:50,574:INFO:Anomaly detected in Block blk_554971391863748475. Error Type: 0, Description: Frequent updates to blockMap for blocks may indicate inconsistencies in block metadata updates.
+2024-11-03 00:10:50,611:INFO:Anomaly detected in Block blk_554971391863748475.
+2024-11-03 00:10:54,677:INFO:Normal activity in Block blk_93959098528131325.
+2024-11-03 00:10:58,732:INFO:Anomaly detected in Block blk_-901603531947743493. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:10:58,771:INFO:Anomaly detected in Block blk_-901603531947743493.
+2024-11-03 00:11:02,828:INFO:Normal activity in Block blk_-156763606600676051.
+2024-11-03 00:11:06,897:INFO:Normal activity in Block blk_-518291332050990979.
+2024-11-03 00:11:10,942:INFO:Anomaly detected in Block blk_-297125310791946853. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:11:10,985:INFO:Anomaly detected in Block blk_-297125310791946853.
+2024-11-03 00:11:15,045:INFO:Anomaly detected in Block blk_598816949500273415. Error Type: 1, Description: Frequent updates to blockMap suggest potential metadata synchronization issues across nodes.
+2024-11-03 00:11:15,090:INFO:Anomaly detected in Block blk_598816949500273415.
+2024-11-03 00:11:19,152:INFO:Anomaly detected in Block blk_671940681460303771. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:11:19,187:INFO:Anomaly detected in Block blk_671940681460303771.
+2024-11-03 00:11:23,245:INFO:Anomaly detected in Block blk_-612980491963763924. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:11:23,296:INFO:Anomaly detected in Block blk_-612980491963763924.
+2024-11-03 00:11:27,359:INFO:Anomaly detected in Block blk_-561315703411731873. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:11:27,419:INFO:Anomaly detected in Block blk_-561315703411731873.
+2024-11-03 00:11:31,484:INFO:Normal activity in Block blk_592688356426275452.
+2024-11-03 00:11:35,530:INFO:Normal activity in Block blk_396773898035387168.
+2024-11-03 00:11:39,603:INFO:Anomaly detected in Block blk_915901638823653754. Error Type: 7, Description: BlockMap update operations suggest consistency checks or block re-registration issues.
+2024-11-03 00:11:39,644:INFO:Anomaly detected in Block blk_915901638823653754.
+2024-11-03 00:11:43,709:INFO:Anomaly detected in Block blk_813234503348127223. Error Type: 4, Description: Potential metadata conflicts due to continuous blockMap updates in the block storage system.
+2024-11-03 00:11:43,765:INFO:Anomaly detected in Block blk_813234503348127223.
+2024-11-03 00:11:47,822:INFO:Normal activity in Block blk_-25192006268504326.
+2024-11-03 00:11:51,871:INFO:Anomaly detected in Block blk_-923265587620252324. Error Type: 24, Description: Frequent blockMap changes may imply metadata handling issues during block storage.
+2024-11-03 00:11:51,942:INFO:Anomaly detected in Block blk_-923265587620252324.
+2024-11-03 00:11:55,994:INFO:Anomaly detected in Block blk_-35006547890175182. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:11:56,029:INFO:Anomaly detected in Block blk_-35006547890175182.
+2024-11-03 00:12:00,098:INFO:Anomaly detected in Block blk_282634802179747070. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:12:00,132:INFO:Anomaly detected in Block blk_282634802179747070.
+2024-11-03 00:12:04,191:INFO:Anomaly detected in Block blk_252707439504227385. Error Type: 3, Description: Repeated block reception events hint at issues in block transfer or duplication across destinations.
+2024-11-03 00:12:04,225:INFO:Anomaly detected in Block blk_252707439504227385.
+2024-11-03 00:12:08,291:INFO:Anomaly detected in Block blk_147514941898173907. Error Type: 5, Description: BlockMap updates observed, possibly indicating metadata mismatch during block storage.
+2024-11-03 00:12:08,328:INFO:Anomaly detected in Block blk_147514941898173907.
+2024-11-03 00:12:12,395:INFO:Normal activity in Block blk_-616090733290063501.

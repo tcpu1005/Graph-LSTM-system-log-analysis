@@ -1,4 +1,7 @@
-Project_Root/data/Event_occurrence_matrix.csv filter=lfs diff=lfs merge=lfs -text
-Project_Root/data/HDFS.npz filter=lfs diff=lfs merge=lfs -text
-Project_Root/data/Event_traces.csv filter=lfs diff=lfs merge=lfs -text
-Project_Root/data/HDFS.log filter=lfs diff=lfs merge=lfs -text
+data/anomaly_label.csv filter=lfs diff=lfs merge=lfs -text
+data/Event_occurrence_matrix.csv filter=lfs diff=lfs merge=lfs -text
+data/Event_traces.csv filter=lfs diff=lfs merge=lfs -text
+data/Detailed_Type_Error_Descriptions.csv filter=lfs diff=lfs merge=lfs -text
+data/HDFS.log_templates.csv filter=lfs diff=lfs merge=lfs -text
+data/HDFS.log filter=lfs diff=lfs merge=lfs -text
+data/HDFS.npz filter=lfs diff=lfs merge=lfs -text
