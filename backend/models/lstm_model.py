@@ -1,8 +1,8 @@
 import torch
 import torch.nn.functional as F
-from torch_geometric.nn import GCNConv, global_mean_pool
-from torch.nn import Linear, Dropout
+from torch.nn import Linear
 import torch.nn as nn
+from torch_geometric.nn import GCNConv, global_mean_pool
 class LSTMModel(nn.Module):
     def __init__(self, input_size, hidden_size, num_layers, num_classes_label, num_classes_type, dropout=0.2):
         super(LSTMModel, self).__init__()

@@ -3,3 +3,10 @@ data/Event_occurrence_matrix.csv
 data/Event_traces.csv
 data/Detailed_Type_Error_Descriptions.csv
 data/HDFS.log_templates.csv
+Test/anomaly_label_10000.csv
+Test/anomaly_label_anomaly_up.csv
+Test/Event_occurrence_anomaly_up.csv
+Test/Event_occurrence_matrix_10000.csv
+Test/Event_traces_10000.csv
+Test/Event_traces_anomaly_up.csv
+backend/backend.log

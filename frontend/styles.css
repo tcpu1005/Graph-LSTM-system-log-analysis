@@ -1,4 +1,4 @@
-/* frontend/styles.css */
+/* 기본적으로 모바일 우선 디자인 */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa;
@@ -20,6 +20,7 @@ h1 {
 #alerts {
     max-height: 500px;
     overflow-y: auto;
+    overflow-x: auto;
 }
 
 .navbar-brand {
@@ -39,4 +40,56 @@ h1 {
     position: relative;
     height: 400px;
     width: 100%;
+}
+
+/* 가상 터미널 스타일 */
+.terminal {
+    background-color: #000;
+    color: #0f0;
+    padding: 15px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+/* 상단 알림 배너 스타일 */
+#topBanner {
+    position: fixed;
+    top: 56px; /* 네비게이션 바 높이 */
+    width: 100%;
+    z-index: 9999;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem; /* 모바일에서는 로고 크기 축소 */
+    }
+    
+    .list-group-item {
+        font-size: 0.9rem; /* 사이드바 아이템 글씨 크기 축소 */
+    }
+    
+    .chart-container {
+        height: 300px; /* 차트 높이 축소 */
+    }
+
+    .card {
+        margin-bottom: 10px; /* 카드 간격 줄이기 */
+    }
+
+    #alerts {
+        max-height: 300px; /* 알림 영역 높이 축소 */
+    }
+}
+
+@media (max-width: 576px) {
+    .chart-container {
+        height: 200px; /* 더 작은 화면에서는 차트 높이 더 축소 */
+    }
+
+    .terminal {
+        height: 200px; /* 터미널 높이 축소 */
+    }
 }
