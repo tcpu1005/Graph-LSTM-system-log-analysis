@@ -13,11 +13,192 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Anomaly Detection Dashboard</a>
     </nav>
-
+    <!-- 상단 알림 배너 -->
+    <div id="topBanner" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 0 Error detected. Click <a href="#" id="reportLink">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBanner()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- 상단 알림 배너 (Type 1) -->
+    <div id="topBannerType1" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 1 Error detected. Click <a href="#" id="reportLinkType1">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType1()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- 상단 알림 배너 (Type 3) -->
+    <div id="topBannerType3" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 3 Error detected. Click <a href="#" id="reportLinkType3">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType3()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- 상단 알림 배너 (Type 4) -->
+    <div id="topBannerType4" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 4 Error detected. Click <a href="#" id="reportLinkType4">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType4()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- 상단 알림 배너 (Type 5) -->
+    <div id="topBannerType5" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 5 Error detected. Click <a href="#" id="reportLinkType5">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType5()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- 상단 알림 배너 (Type 7) -->
+    <div id="topBannerType7" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 7 Error detected. Click <a href="#" id="reportLinkType7">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType7()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 8) -->
+    <div id="topBannerType8" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 8 Error detected. Click <a href="#" id="reportLinkType8">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType8()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 9) -->
+    <div id="topBannerType9" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 9 Error detected. Click <a href="#" id="reportLinkType9">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType9()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 10) -->
+    <div id="topBannerType10" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 10 Error detected. Click <a href="#" id="reportLinkType10">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType10()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 11) -->
+    <div id="topBannerType11" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 11 Error detected. Click <a href="#" id="reportLinkType11">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType11()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 12) -->
+    <div id="topBannerType12" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 12 Error detected. Click <a href="#" id="reportLinkType12">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType12()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 13) -->
+    <div id="topBannerType13" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 13 Error detected. Click <a href="#" id="reportLinkType13">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType13()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 16) -->
+    <div id="topBannerType16" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 16 Error detected. Click <a href="#" id="reportLinkType16">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType16()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 17) -->
+    <div id="topBannerType17" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 17 Error detected. Click <a href="#" id="reportLinkType17">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType17()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 18) -->
+    <div id="topBannerType18" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 18 Error detected. Click <a href="#" id="reportLinkType18">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType18()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 19) -->
+    <div id="topBannerType19" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 19 Error detected. Click <a href="#" id="reportLinkType19">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType19()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 20) -->
+    <div id="topBannerType20" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 20 Error detected. Click <a href="#" id="reportLinkType20">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType20()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 21) -->
+    <div id="topBannerType21" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 21 Error detected. Click <a href="#" id="reportLinkType21">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType21()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 22) -->
+    <div id="topBannerType22" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 22 Error detected. Click <a href="#" id="reportLinkType22">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType22()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 23) -->
+    <div id="topBannerType23" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 23 Error detected. Click <a href="#" id="reportLinkType23">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType23()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 24) -->
+    <div id="topBannerType24" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 24 Error detected. Click <a href="#" id="reportLinkType24">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType24()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 25) -->
+    <div id="topBannerType25" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 25 Error detected. Click <a href="#" id="reportLinkType25">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType25()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 27) -->
+    <div id="topBannerType27" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 27 Error detected. Click <a href="#" id="reportLinkType27">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType27()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 28) -->
+    <div id="topBannerType28" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 28 Error detected. Click <a href="#" id="reportLinkType28">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType28()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 30) -->
+    <div id="topBannerType30" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 30 Error detected. Click <a href="#" id="reportLinkType30">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType30()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <!-- 상단 알림 배너 (Type 31) -->
+    <div id="topBannerType31" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+        <strong>Alert:</strong> Type 31 Error detected. Click <a href="#" id="reportLinkType31">here</a> to view the report.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="closeBannerType31()">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
     <div class="container-fluid mt-4">
         <div class="row">
             <!-- 사이드바 메뉴 추가 -->
-            <div class="col-md-2 mb-4">
+            <div class="col-lg-2 lg-4">
                 <ul class="list-group">
                     <li class="list-group-item active">Dashboard</li>
                     <li class="list-group-item">Settings</li>
@@ -25,10 +206,10 @@
                 </ul>
             </div>
             <!-- 메인 컨텐츠 영역 -->
-            <div class="col-md-10">
+            <div class="col-lg-10">
                 <div class="row">
                     <!-- 첫 번째 대시보드: Real-time Anomaly Count -->
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
                                 <h4>Real-time Anomaly Count</h4>
@@ -41,7 +222,7 @@
                 </div>
                 <div class="row">
                     <!-- 세 번째 대시보드: Anomaly Types Frequency Over Time -->
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
                                 <h4>Anomaly Types Frequency Over Time</h4>
@@ -54,7 +235,7 @@
                 </div>
                 <div class="row">
                     <!-- 네 번째 대시보드: Anomaly Probability Over Time -->
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
                                 <h4>Anomaly Probability Over Time</h4>
@@ -67,7 +248,7 @@
                 </div>
                 <div class="row">
                     <!-- 다섯 번째 대시보드: Normal vs Anomaly Ratio -->
-                    <div class="col-md-6 mb-4">
+                    <div class="col-lg-6 lg-4">
                         <div class="card">
                             <div class="card-header">
                                 <h4>Normal vs Anomaly Ratio</h4>
@@ -78,7 +259,7 @@
                         </div>
                     </div>
                     <!-- 두 번째 대시보드: Anomaly Types Distribution -->
-                    <div class="col-md-6 mb-4">
+                    <div class="col-lg-6 lg-4">
                         <div class="card">
                             <div class="card-header">
                                 <h4>Anomaly Types Distribution</h4>
@@ -91,7 +272,7 @@
                 </div>
                 <div class="row">
                     <!-- 여섯 번째 대시보드: Alerts -->
-                    <div class="col-md-12">
+                    <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header">
                                 <h4>Alerts</h4>
@@ -101,11 +282,517 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                          <div class="card-header">
+                            <h4>Automated Response System</h4>
+                          </div>
+                          <div class="card-body">
+                            <pre id="terminalOutput" class="terminal"></pre>
+                          </div>
+                        </div>
+                      </div>
                 </div>
+            </div>
+        </div>
+        <!-- 보고서 모달 -->
+        <div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="reportModalLabel">Type 0 Error Report</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModal()">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="reportContent">
+                <!-- 보고서 내용이 여기에 동적으로 추가 -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModal()">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 보고서 모달 (Type 1) -->
+        <div class="modal fade" id="reportModalType1" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType1" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="reportModalLabelType1">Type 1 Error Report</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType1()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body" id="reportContentType1">
+                <!-- 보고서 내용이 여기에 동적으로 추가 -->
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType1()">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+                <!-- 보고서 모달 (Type 3) -->
+        <div class="modal fade" id="reportModalType3" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType3" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="reportModalLabelType3">Type 3 Error Report</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType3()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body" id="reportContentType3">
+                <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType3()">Close</button>
+                </div>
+            </div>
             </div>
         </div>
     </div>
 
+    <!-- 보고서 모달 (Type 4) -->
+    <div class="modal fade" id="reportModalType4" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType4" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType4">Type 4 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType4()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType4">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType4()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- 보고서 모달 (Type 5) -->
+    <div class="modal fade" id="reportModalType5" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType5" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType5">Type 5 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType5()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType5">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType5()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- 보고서 모달 (Type 7) -->
+    <div class="modal fade" id="reportModalType7" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType7" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType7">Type 7 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType7()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType7">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType7()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 8) -->
+    <div class="modal fade" id="reportModalType8" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType8" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType8">Type 8 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType8()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType8">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType8()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- 보고서 모달 (Type 9) -->
+    <div class="modal fade" id="reportModalType9" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType9" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType9">Type 9 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType9()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType9">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType9()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 10) -->
+    <div class="modal fade" id="reportModalType10" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType10" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType10">Type 10 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType10()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType10">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType10()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 11) -->
+    <div class="modal fade" id="reportModalType11" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType11" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType11">Type 11 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType11()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType11">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType11()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 12) -->
+    <div class="modal fade" id="reportModalType12" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType12" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType12">Type 12 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType12()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType12">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType12()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 13) -->
+    <div class="modal fade" id="reportModalType13" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType13" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType13">Type 13 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType13()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType13">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType13()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 16) -->
+    <div class="modal fade" id="reportModalType16" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType16" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType16">Type 16 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType16()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType16">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType16()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 17) -->
+    <div class="modal fade" id="reportModalType17" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType17" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType17">Type 17 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType17()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType17">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType17()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- 보고서 모달 (Type 18) -->
+    <div class="modal fade" id="reportModalType18" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType18" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType18">Type 18 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType18()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType18">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType18()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 19) -->
+    <div class="modal fade" id="reportModalType19" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType19" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType19">Type 19 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType19()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType19">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType19()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 20) -->
+    <div class="modal fade" id="reportModalType20" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType20" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType20">Type 20 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType20()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType20">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType20()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 21) -->
+    <div class="modal fade" id="reportModalType21" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType21" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType21">Type 21 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType21()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType21">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType21()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 22) -->
+    <div class="modal fade" id="reportModalType22" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType22" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType22">Type 22 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType22()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType22">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType22()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 23) -->
+    <div class="modal fade" id="reportModalType23" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType23" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType23">Type 23 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType23()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType23">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType23()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 24) -->
+    <div class="modal fade" id="reportModalType24" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType24" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType24">Type 24 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType24()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType24">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType24()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 25) -->
+    <div class="modal fade" id="reportModalType25" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType25" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType25">Type 25 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType25()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType25">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType25()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 27) -->
+    <div class="modal fade" id="reportModalType27" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType27" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType27">Type 27 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType27()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType27">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType27()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- 보고서 모달 (Type 28) -->
+    <div class="modal fade" id="reportModalType28" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType28" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType28">Type 28 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType28()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType28">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType28()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- 보고서 모달 (Type 30) -->
+    <div class="modal fade" id="reportModalType30" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType30" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType30">Type 30 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType30()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType30">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType30()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- 보고서 모달 (Type 31) -->
+    <div class="modal fade" id="reportModalType31" tabindex="-1" role="dialog" aria-labelledby="reportModalLabelType31" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabelType31">Type 31 Error Report</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeReportModalType31()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body" id="reportContentType31">
+            <!-- 보고서 내용이 여기에 동적으로 추가됩니다 -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeReportModalType31()">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
     <!-- 부트스트랩 JS 및 의존성 추가 -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>  
