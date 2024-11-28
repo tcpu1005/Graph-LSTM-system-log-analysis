@@ -1,4 +1,4 @@
-# data_create_10000unit.py
+# data_create_anomaly_up.py
 
 import requests
 import time
@@ -9,8 +9,8 @@ import random
 
 def load_data_from_csv():
     # CSV 파일 읽기
-    df_traces = pd.read_csv('Event_traces_10000.csv')
-    df_labels = pd.read_csv('anomaly_label_10000.csv')
+    df_traces = pd.read_csv('Event_traces_anomaly_up.csv')
+    df_labels = pd.read_csv('anomaly_label_anomaly_up.csv')
 
     # BlockId를 기준으로 데이터 병합 (접미사 지정)
     df = pd.merge(df_traces, df_labels, on='BlockId', suffixes=('_traces', '_labels'))
