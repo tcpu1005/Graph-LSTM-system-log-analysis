@@ -383,6 +383,109 @@ function updateAnomalyCount(data) {
     }
 }
 
+// 기존 코드 유지
+
+// 성능 지표 막대 차트 설정
+const ctxPerformanceBar = document.getElementById('performanceChart').getContext('2d');
+const performanceChart = new Chart(ctxPerformanceBar, {
+    type: 'bar',
+    data: {
+        labels: ['Precision', 'Recall', 'F1-Score'],
+        datasets: [{
+            label: 'Performance Metrics',
+            data: [0, 0, 0],
+            backgroundColor: [
+                'rgba(54, 162, 235, 0.6)',  // Precision
+                'rgba(75, 192, 192, 0.6)',  // Recall
+                'rgba(255, 206, 86, 0.6)'   // F1-Score
+            ],
+            borderColor: [
+                'rgba(54, 162, 235, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(255, 206, 86, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {  // Chart.js 3.x 이상에서는 'yAxes' 대신 'y'로 변경
+                beginAtZero: true,
+                max: 1,
+                ticks: {
+                    stepSize: 0.1,
+                    callback: function(value) {
+                        return (value * 100).toFixed(0) + '%';
+                    }
+                },
+                title: {
+                    display: true,
+                    text: 'Value'
+                }
+            }
+        },
+        plugins: {
+            title: {
+                display: true,
+                text: 'Precision, Recall, F1-Score'
+            }
+        }
+    }
+});
+
+// 혼동 매트릭스 파이 차트 설정
+const ctxConfusionMatrix = document.getElementById('precisionRecallF1Chart').getContext('2d');
+const confusionMatrixChart = new Chart(ctxConfusionMatrix, {
+    type: 'pie',
+    data: {
+        labels: ['TP', 'FP', 'TN', 'FN'],
+        datasets: [{
+            data: [0, 0, 0, 0],
+            backgroundColor: [
+                'rgba(75, 192, 192, 0.6)',  // TP
+                'rgba(255, 99, 132, 0.6)',  // FP
+                'rgba(54, 162, 235, 0.6)',  // TN
+                'rgba(255, 206, 86, 0.6)'   // FN
+            ],
+            borderColor: [
+                'rgba(75, 192, 192, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: 'Confusion Matrix'
+            }
+        }
+    }
+});
+
+
+// Socket.IO 이벤트 리스너: 성능 지표 업데이트
+socket.on('update_metrics', (metrics) => {
+  // 업데이트된 수치 표시
+  document.getElementById('precisionValue').innerText = metrics.precision;
+  document.getElementById('recallValue').innerText = metrics.recall;
+  document.getElementById('f1ScoreValue').innerText = metrics.f1_score;
+
+  // 성능 지표 막대 차트 업데이트
+  performanceChart.data.datasets[0].data = [metrics.precision, metrics.recall, metrics.f1_score];
+  performanceChart.update();
+
+  // 혼동 매트릭스 파이 차트 업데이트
+  confusionMatrixChart.data.datasets[0].data = [metrics.TP, metrics.FP, metrics.TN, metrics.FN];
+  confusionMatrixChart.update();
+});
+
+
 //===============자동 대응 함수===============
 // 자동 대응 함수
 function automatedResponse(data) {

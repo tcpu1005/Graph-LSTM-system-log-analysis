@@ -6,6 +6,8 @@ import pandas as pd
 import ast
 import re
 import random
+import logging
+
 
 def load_data_from_csv():
     # CSV 파일 읽기
@@ -36,6 +38,7 @@ def load_data_from_csv():
             'label': label
         })
 
+    print(data_list)
     return data_list
 
 def simulate_data_stream():
@@ -48,7 +51,7 @@ def simulate_data_stream():
     for data in data_list:
         response = requests.post('http://localhost:5000/predict', json=data)
         print(response.json())
-        time.sleep(0.5)  # 2초 간격으로 데이터 전송
+        time.sleep(2)  # 2초 간격으로 데이터 전송
 
 if __name__ == '__main__':
     simulate_data_stream()

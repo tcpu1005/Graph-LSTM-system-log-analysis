@@ -1,16 +1,13 @@
-# backend/app.py
 from flask import Flask, request, jsonify, send_from_directory
 from flask_socketio import SocketIO, emit
 import torch
 from models.gnn_model import GNN
 from models.lstm_model import LSTMModel
-import numpy as np
-import subprocess  # 자동 대응 조치를 위한 라이브러리
-import json
-import torch.nn.functional as F  # 소프트맥스 함수 사용을 위해 추가
+import torch.nn.functional as F
 import logging
-from torch_geometric.data import Data
+import json
 import pandas as pd
+import subprocess  # 자동 대응 조치를 위한 라이브러리
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
@@ -103,12 +100,27 @@ def respond_to_anomaly(block_id, error_type, error_description):
         print(f"Block {block_id}: Alert email sent to administrator.")
     except subprocess.CalledProcessError:
         print(f"Block {block_id}: Failed to send alert email.")
+
+# 성능 지표 counts
+performance_counts = {
+    'TP': 0,  # True Positives
+    'FP': 0,  # False Positives
+    'TN': 0,  # True Negatives
+    'FN': 0   # False Negatives
+}
+
+# Anomaly 임계값 설정 (0.2으로 설정하여 Recall 개선)
+ANOMALY_THRESHOLD = 0.1
+
 @app.route('/predict', methods=['POST'])
 def predict():
+    global performance_counts  # 전역 변수 사용 선언
     try:
         data = request.json
         block_id = data.get('block_id')
         events = data.get('events')  # 이벤트 시퀀스 리스트
+        actual_label_str = data.get('label')  # 'Anomaly' 또는 'Normal'
+        actual_label = 1 if actual_label_str == 'Anomaly' else 0
 
         if not block_id or not events:
             logging.error("Missing 'block_id' or 'events' in the request.")
@@ -121,22 +133,19 @@ def predict():
         # LSTM 모델을 통해 예측
         with torch.no_grad():
             label_output, type_output = lstm_model(input_tensor)
-            #LSTM 모델을 통해 레이블(label_output)과 오류 유형(type_output)을 예측.
-            #F.softmax 함수를 사용하여 예측 결과에 소프트맥스를 적용해 확률을 계산.
             label_prob = F.softmax(label_output, dim=1)
             type_prob = F.softmax(type_output, dim=1)
 
-            _, label_predicted = torch.max(label_output, 1)
-            label = label_predicted.item()  # 0: Normal, 1: Anomaly
+            # Anomaly 확률을 기준으로 예측
+            anomaly_prob = label_prob[0][1].item()  # Anomaly 확률
+            label = 1 if anomaly_prob >= ANOMALY_THRESHOLD else 0  # 임계값 기반 예측
 
             if label == 1:
-                label_probability = label_prob[0][1].item()  # Anomaly 확률
                 _, type_predicted = torch.max(type_output, 1)
                 error_type = type_predicted.item()
                 error_description = error_type_to_description.get(error_type, 'Unknown Error')
                 type_probability = type_prob[0][type_predicted].item()
             else:
-                label_probability = 0.0  # 정상 데이터일 경우 확률을 0으로 설정
                 error_type = -1
                 error_description = 'N/A'
                 type_probability = 0.0
@@ -144,12 +153,50 @@ def predict():
         result = {
             'block_id': block_id,
             'label': label,
-            'label_probability': round(label_probability, 4),  # 소수점 4자리까지 반올림
+            'label_probability': round(anomaly_prob, 4),  # Anomaly 확률
             'error_type': error_type,
             'error_description': error_description,
             'type_probability': round(type_probability, 4),
             'events': events
         }
+
+        # 성능 지표 업데이트
+        if label == 1:
+            if actual_label == 1:
+                performance_counts['TP'] += 1
+            else:
+                performance_counts['FP'] += 1
+        else:
+            if actual_label == 0:
+                performance_counts['TN'] += 1
+            else:
+                performance_counts['FN'] += 1
+
+        # 성능 지표 계산
+        TP = performance_counts['TP']
+        FP = performance_counts['FP']
+        TN = performance_counts['TN']
+        FN = performance_counts['FN']
+
+        precision = TP / (TP + FP) if (TP + FP) > 0 else 0.0
+        recall = TP / (TP + FN) if (TP + FN) > 0 else 0.0
+        f1_score = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+
+        metrics = {
+            'precision': round(precision, 4),
+            'recall': round(recall, 4),
+            'f1_score': round(f1_score, 4),
+            'TP': TP,
+            'FP': FP,
+            'TN': TN,
+            'FN': FN
+        }
+
+        # 실시간 알림 전송
+        socketio.emit('new_alert', result)
+
+        # 성능 지표 전송
+        socketio.emit('update_metrics', metrics)
 
         # 이상 탐지 시 자동 대응 조치 수행
         if label == 1:
@@ -158,14 +205,10 @@ def predict():
         else:
             logging.info(f"Normal activity in Block {block_id}.")
 
-        # 실시간 알림 전송
-        socketio.emit('new_alert', result)
-
         return jsonify(result)
     except Exception as e:
         logging.error(f"Error in predict endpoint: {str(e)}")
         return jsonify({'error': 'Internal Server Error'}), 500
-
 
 # 정적 파일 서빙 (프론트엔드 대시보드)
 @app.route('/', methods=['GET'])
