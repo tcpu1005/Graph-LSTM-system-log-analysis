@@ -207,8 +207,112 @@
             </div>
             <!-- 메인 컨텐츠 영역 -->
             <div class="col-lg-10">
+                                <!-- Alerts -->
                 <div class="row">
-                    <!-- 첫 번째 대시보드: Real-time Anomaly Count -->
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Alerts</h4>
+                            </div>
+                            <div class="card-body" id="alerts">
+                                <!-- 실시간 알림 표시 영역 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Automated Response System-->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h4>Automated Response System</h4>
+                          </div>
+                          <div class="card-body">
+                            <pre id="terminalOutput" class="terminal"></pre>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <!-- 평가지표 -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h4>Precision, Recall, F1-Score</h4>
+                            </div>
+                            <div id="performanceMetrics" class="container mt-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card text-white bg-primary mb-3">
+                                            <div class="card-header">Precision</div>
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="precisionValue">0</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card text-white bg-success mb-3">
+                                            <div class="card-header">Recall</div>
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="recallValue">0</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card text-white bg-warning mb-3">
+                                            <div class="card-header">F1-Score</div>
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="f1ScoreValue">0</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chart-container">
+                                    <canvas id="performanceChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- confusion matrix -->
+                    <div class="col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <h4>Confusion Matrix</h4>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="precisionRecallF1Chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Normal vs Anomaly Ratio -->
+                <div class="row">
+                    <div class="col-lg-6 lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Normal vs Anomaly Ratio</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="normalAnomalyRatioChart" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Anomaly Types Distribution -->
+                    <div class="col-lg-6 lg-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Anomaly Types Distribution</h4>
+                            </div>
+                            <div class="card-body">
+                                <canvas id="anomalyTypePieChart" width="400" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Real-time Anomaly Count -->
+                <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
@@ -221,7 +325,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <!-- 세 번째 대시보드: Anomaly Types Frequency Over Time -->
+                    <!-- Anomaly Types Frequency Over Time -->
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
@@ -234,7 +338,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <!-- 네 번째 대시보드: Anomaly Probability Over Time -->
+                    <!-- Anomaly Probability Over Time -->
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
@@ -246,53 +350,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <!-- 다섯 번째 대시보드: Normal vs Anomaly Ratio -->
-                    <div class="col-lg-6 lg-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Normal vs Anomaly Ratio</h4>
-                            </div>
-                            <div class="card-body">
-                                <canvas id="normalAnomalyRatioChart" width="400" height="300"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 두 번째 대시보드: Anomaly Types Distribution -->
-                    <div class="col-lg-6 lg-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Anomaly Types Distribution</h4>
-                            </div>
-                            <div class="card-body">
-                                <canvas id="anomalyTypePieChart" width="400" height="300"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- 여섯 번째 대시보드: Alerts -->
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Alerts</h4>
-                            </div>
-                            <div class="card-body" id="alerts">
-                                <!-- 실시간 알림 표시 영역 -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="card">
-                          <div class="card-header">
-                            <h4>Automated Response System</h4>
-                          </div>
-                          <div class="card-body">
-                            <pre id="terminalOutput" class="terminal"></pre>
-                          </div>
-                        </div>
-                      </div>
-                </div>
+
             </div>
         </div>
         <!-- 보고서 모달 -->

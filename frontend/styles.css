@@ -17,10 +17,39 @@ h1 {
     margin-bottom: 15px;
 }
 
+/* Alerts 설정 */
 #alerts {
-    max-height: 500px;
+    max-height: 350px; /* Alerts의 최대 높이 설정 */
+    overflow-y: auto; /* 위아래 스크롤 */
+    overflow-x: hidden; /* 수평 스크롤 제거 */
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    display: block; /* block 레이아웃 유지 */
+}
+
+#alerts .card {
+    margin-bottom: 10px; /* 카드 간 간격 설정 */
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Automated Response System */
+.terminal {
+    background-color: #000;
+    color: #0f0;
+    padding: 15px;
+    height: 300px;
     overflow-y: auto;
     overflow-x: auto;
+    font-family: monospace;
+    text-align: left; /* 글자 왼쪽 정렬 */
+    white-space: pre-wrap; /* 줄바꿈 허용 */
+    width: 100%; /* 가로 영역 꽉 채우기 */
+    box-sizing: border-box; /* 패딩 포함 너비 설정 */
 }
 
 .navbar-brand {
@@ -36,60 +65,56 @@ h1 {
     border-color: #007bff;
 }
 
-.chart-container {
-    position: relative;
-    height: 400px;
-    width: 100%;
+/* 중앙 정렬 스타일: Precision, Recall, F1-Score */
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
 }
 
-/* 가상 터미널 스타일 */
-.terminal {
-    background-color: #000;
-    color: #0f0;
-    padding: 15px;
-    height: 300px;
-    overflow-y: auto;
-    overflow-x: auto;
-    font-family: monospace;
+
+/* Confusion Matrix canvas를 정사각형으로 설정 */
+#precisionRecallF1Chart {
+    display: block; /* canvas 요소 블록화 */
+    margin: 0 auto; /* 가운데 정렬 */
+    width: 100%; /* 부모 컨테이너에 맞춤 */
+    max-width: 400px; /* 최대 너비를 고정 */
+    aspect-ratio: 1 / 1; /* 정사각형 비율 유지 */
 }
 
-/* 상단 알림 배너 스타일 */
-#topBanner {
-    position: fixed;
-    top: 56px; /* 네비게이션 바 높이 */
-    width: 100%;
-    z-index: 9999;
-}
 
 /* 반응형 디자인 */
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: 1.2rem; /* 모바일에서는 로고 크기 축소 */
+        font-size: 1.2rem;
     }
-    
+
     .list-group-item {
-        font-size: 0.9rem; /* 사이드바 아이템 글씨 크기 축소 */
-    }
-    
-    .chart-container {
-        height: 300px; /* 차트 높이 축소 */
+        font-size: 0.9rem;
     }
 
     .card {
-        margin-bottom: 10px; /* 카드 간격 줄이기 */
+        margin-bottom: 10px;
     }
 
     #alerts {
-        max-height: 300px; /* 알림 영역 높이 축소 */
+        max-height: 150px; /* 모바일에서 Alerts 높이 축소 */
+    }
+
+    #precisionRecallF1Chart {
+        height: 300px !important;
     }
 }
 
 @media (max-width: 576px) {
-    .chart-container {
-        height: 200px; /* 더 작은 화면에서는 차트 높이 더 축소 */
+    .terminal {
+        height: 200px;
     }
 
-    .terminal {
-        height: 200px; /* 터미널 높이 축소 */
+    #precisionRecallF1Chart {
+        height: 250px !important;
     }
 }

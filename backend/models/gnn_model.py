@@ -5,7 +5,7 @@ import torch.nn as nn
 from torch_geometric.nn import GCNConv, global_mean_pool
 
 class GNN(torch.nn.Module):
-    def __init__(self, num_node_features, hidden_channels, dropout=0.6):
+    def __init__(self, num_node_features, hidden_channels, dropout=0.2):
         super(GNN, self).__init__()
         self.conv1 = GCNConv(num_node_features, hidden_channels)
         self.dropout1 = nn.Dropout(dropout)
